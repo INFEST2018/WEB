@@ -24,7 +24,7 @@
                                         <a href="#"><span>Kategori Lomba</span></a>
                                         <ul class="sub-menu">
                                             <li>
-                                                <a href="<?php echo base_url();?>index.php/pemograman"><span>Coding Contest</span></a>
+                                                <a href="<?php echo base_url();?>index.php/pemograman"><span>Programming Contest</span></a>
                                             </li>
                                            
                                             <li>
@@ -88,7 +88,7 @@
                     <div class="section_wrapper clearfix">
 
                         <div align="center" style="padding-top: 50px;">
-                            <h1 style="font-size: 40px; line-height: 30px;">Coding Contest</h1>
+                            <h1 style="font-size: 40px; line-height: 30px;">Programming Contest</h1>
                             <img style="padding: 10px 0 50px 0;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
                         </div>
 
@@ -96,27 +96,24 @@
                             <h3>Deskripsi</h3>
                             <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
                             <p class="deskripsi-content">
-                                Coding Contest merupakan lomba dimana peserta menyelesaikan suatu soal
-                                atau permasalahan dengan program computer yang dibangun dengan Bahasa
-                                pemograman (C, C++, java). Peserta di tuntut untuk menyelesaikan permasalahan
-                                yang diberikan sebanyak mungkin dengan durasi waktu yang di berikan. Kriteria
-                                penilaian dalam lomba ini antara lain banyaknya permasalahan yang dapat
-                                diseslesaiakan dengan program, efisiensi program, kecepatan peserta dalam
-                                membangun program dan tata penulisan program.
+                            Coding Contest merupakan lomba dimana peserta menyelesaikan suatu soal atau permasalahan dengan 
+                            program computer yang dibangun dengan Bahasa pemograman (C, C++, java). Peserta di tuntut untuk
+                             menyelesaikan permasalahan yang diberikan sebanyak mungkin dengan durasi waktu yang di berikan. 
+                             Kriteria penilaian dalam lomba ini antara lain banyaknya permasalahan yang dapat diseslesaiakan 
+                             dengan program, efisiensi program, kecepatan peserta dalam membangun program dan tata penulisan program.
                             </p>
                             
                             <p class="deskripsi-content">
-                                Peserta dari Coding Contest adalah tim yang mewakili universitas universitas di Indonesia terdiri dari <i style="color:red"> 3 mahasiswa/i</i> dan <i style="color:red">1 orang dosen pembimbing</i>.
-
-                                Untuk tim yang lolos ke babak final biaya transportasi ke banda aceh <i style="color:red">tidak ditanggung</i> oleh pihak penyelenggara, namun untuk biaya penginapan dan transportasi di banda aceh akan <i style="color:red">di tanggung </i>oleh pihak penyelenggara acara.
+                            Peserta dari Coding Contest adalah tim yang mewakili universitas universitas di Indonesia terdiri dari <i style="color:red">3 mahasiswa/i</i> dan <i style="color:red">1 orang dosen pembimbing.</i>
                                 <br><br><br>
                             </p>
 
                             <h3>Pendaftaran</h3>
                             <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
                             <ol class="list-content">
-                                <li>Pendaftaran tim peserta mahasiswa pada tanggal 1-20 september 2018</li>
-                                <li>Pendaftaran dapat dilakukan pada link berikut <a href="">blabalabal.com</a></li>
+                                <li>Pendaftaran tim peserta mahasiswa pada tanggal 18 – 7 Oktober 2018.</li>
+                                <li>Untuk pendaftaran dapat dilakukan <a href="<?php echo base_url() ?>index.php/registrasi">disini...</a></li>
+                                <li>Pada saat pendaftaran diharapkan peserta melampirkan hasil scan kartu mahasiswanya</li>
                             </ol>
                             <br>
                             <br>
@@ -136,23 +133,14 @@
                             <br><br>
 
 
-                            <h3>Tahap Final (Live Coding)</h3>
+                            <h3>Tahap Final (Online)</h3>
                             <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
                             <ol class="list-content">
-                                <li>Tahap final merupakan tahap akhir dimana peserta akan melakukan lomba secara langsung di tempat.</li>
-                                <li>Lomba akan berlangsung selama 5 jam dengan total soal 12-15 soal.</li>
+                                <li>Tahap final merupakan tahap akhir dari lomba yang dilakukan secara online</li>
+                                <li>Terdapat 12-15 soal yang harus di selesaikan peserta dengan durasi waktu 5 jam terhitung sejak peserta mengkonfirmasi akan memulai mengerjakan soal.</li>
                                 <li><i style="color:red">Kriteria penilaian</i> pada tahap ini adalah banyaknya permasalahan yang dapat diselesaikan dengan program, efisiensi program, dan tata penulisan program serta kecepatan peserta dalam membangun program.</li>
-                                <li>Tahap final akan dilaksanakan pada jumat, 26 Oktober 2018 jam 08.30 – Selesai di gedung <i style="color:red">ICT Unsyiah Center.</i></li>
+                                <li>Tahap final akan dilaksanakan pada Jumat, 26 Oktober 2018 jam 12.00 – 24.00 WIB</li>
                                 <li>Pengumuman pemenang akan diumumkan di hari tersebut juga dan penyerahan hadiah akan dilakukan pada saat closing ceremony INFEST</li>
-                            </ol>
-                            <br><br>
-
-                            
-                            <h3>Peraturan Umum</h3>
-                            <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
-                            <ol class="list-content">
-                                <li>Tim lomba terdiri dari 3 orang mahasiswa dan 1 orang dosen pembimbing</li>
-                                <li>1 tim hanya dapat mengikuti 1 cabang lomba</li>
                             </ol>
                             <br><br>
 
@@ -160,10 +148,10 @@
                             <h3 style="color:red">Tanggal Penting</h3>
                             <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
                             <ul class="list-content ">
-                                <li class="icon-calendar">&emsp;Pendaftaran tim peserta mahasiswa 1-20 september 2018</li>
-                                <li class="icon-calendar">&emsp;Demo Online dilaksanakan pada tanggal 22 - 23 September 2018</li>
-                                <li class="icon-calendar">&emsp;Pelaksanaan tahap penyisihan pada 26 September 2018</li>
-                                <li class="icon-calendar">&emsp;Pengumuman Hasil dari tahap penyisihan tanggal 6 oktober 2018</li>
+                                <li class="icon-calendar">&emsp;Pendaftaran tim peserta mahasiswa 18 – 7 Oktober 2018.</li>
+                                <li class="icon-calendar">&emsp;Demo Online dilaksanakan pada tanggal 8 - 9 Oktober 2018</li>
+                                <li class="icon-calendar">&emsp;Pelaksanaan tahap penyisihan pada 15 oktober 2018</li>
+                                <li class="icon-calendar">&emsp;Pengumuman Hasil dari tahap penyisihan tanggal 20 oktober 2018</li>
                                 <li class="icon-calendar">&emsp;Pelaksanaan tahap final pada 26 Oktober 2018</li>
                             </ul>
                         </div>
