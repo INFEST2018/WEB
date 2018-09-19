@@ -1,0 +1,201 @@
+.kategori {
+    width: 150px;
+    height: auto;
+}
+
+.back-kategori {
+    position: absolute;
+    top: 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.back-kategori:hover {
+    opacity: 0;
+}
+
+.image-icon {
+    height: auto;
+    width: 22px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.back-icon {
+    height: auto;
+    width: 22px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    visibility: hidden;
+}
+
+.custom-icon {
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.custom-icon:hover .back-icon {
+    visibility: visible;
+}
+
+.deskripsi {
+    margin: 0 150px;
+    padding: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.list-berita {
+    margin: 0px 90px;
+    padding: 20px;
+    text-align: justify;
+}
+
+.deskripsi-judul {
+    font-size: 30px;
+}
+
+.deskripsi-content {
+    line-height: 1.6;
+    color: #201c1c;
+    text-indent: 50px;
+    font-size: 12pt;
+}
+
+.list-content {
+    line-height: 1.6;
+    color: #201c1c;
+    font-size: 12pt;
+}
+
+.sub-menu {
+    list-style: none;
+}
+
+#Top_bar .menu>li>a span:not(.description) {
+    color: white;
+}
+
+#Header .top_bar_left,
+#Header_creative,
+#Top_bar #menu,
+.header-below #Top_bar,
+.header-classic #Top_bar,
+.header-fixed #Top_bar,
+.header-stack #Top_bar {
+    background-color: #1b1a24;
+}
+
+.header-below #Top_bar {
+    background-color: #1b1a24;
+}
+
+#Top_bar .menu_wrapper {
+    float: right;
+}
+
+.footer-image {
+    height: 150px;
+    width: auto;
+}
+
+#Top_bar .menu>li>a:after {
+    top: auto;
+}
+
+#Top_bar .menu>li ul li a {
+    color: white;
+}
+
+#Top_bar .menu>li ul li a:hover {
+    color: #2991d6;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    line-height: 0em;
+}
+
+@media only screen and (max-width: 1239px) {
+    #Top_bar a.responsive-menu-toggle {
+        width: 0px;
+    }
+
+    #Top_bar a.responsive-menu-toggle i {
+        font-size: 40px;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    #Action_bar,
+    #Top_bar {
+        background-color: #1b1a24 !important;
+    }
+
+    .footer-image {
+        height: auto;
+        width: 100%;
+    }
+
+    .deskripsi {
+        margin: 0 15px;
+        padding: 20px;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+    .list-berita {
+        margin: 0px 15px;
+        padding: 20px;
+        text-align: justify;
+    }
+
+    .deskripsi-judul {
+        font-size: 12px;
+    }
+
+    .deskripsi-content {
+        line-height: 1.6;
+        color: #201c1c;
+        text-indent: 50px;
+        font-size: 10pt;
+    }
+
+    .list-content {
+        line-height: 1.6;
+        color: #201c1c;
+        font-size: 10pt;
+    }
+
+    #Top_bar .logo #logo {
+        padding: 5px 30px 15px 0px;
+    }
+
+    #Subheader .title,
+    .text-logo #logo,
+    h1 {
+        font-size: 30px !important;
+    }
+}
+
+input[type="date"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="url"],
+select,
+textarea {
+    width: 600px;
+}
