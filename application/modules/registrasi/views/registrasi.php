@@ -90,7 +90,7 @@
 							<img style="padding: 10px 0 50px 0; width:700px;;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
 						</div>
 						<div align="center" style="font-size:12pt;">
-							<form name="frm" action="<?php echo base_url(). 'index.php/registrasi/tambah_aksi'; ?>" method="post" enctype="multipart/form-data">
+							<form id=regForm name="frm" enctype="multipart/form-data">
 								<h3 class="form-judul">Form Tim</h3>
 								<img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
 								<div class="form-group">
@@ -100,7 +100,7 @@
 								</div>
 								<div class="form-group">
 									<label for="email">Email:</label>
-									<span id="email_result"></span> 
+									<span id="email_result"></span>
 									<input type="email" class="form-control" id="email" placeholder="Masukan Email" name="email">
 								</div>
 								<div class="form-group">
@@ -196,7 +196,7 @@
 
 								<br><br><br>
 
-								<button type="submit" onclick="return IsEmpty();" class="btn btn-primary">Submit</button>
+								<button type="button" onclick="regForm()" class="btn btn-primary">Submit</button>
 							</form>
 						</div>
 					</div>
@@ -282,44 +282,65 @@
 			alert("Mohon Upload Scan Ktm Anggota 3");
 			return false;
 		}
-		
+
 		return true;
 	}
 </script>
-<script>  
- $(document).ready(function(){  
-      $('#email').change(function(){  
-           var email = $('#email').val();  
-           if(email != '')  
-           {  
-                $.ajax({  
-                     url:"<?php echo base_url(); ?>index.php/registrasi/check_email_avalibility",  
-                     method:"POST",  
-                     data:{email:email},  
-                     success:function(data){  
-                          $('#email_result').html(data);  
-                     }  
-                });  
-           }  
-      });  
- });  
- </script>  
+<script>
+ $(document).ready(function(){
+      $('#email').change(function(){
+           var email = $('#email').val();
+           if(email != '')
+           {
+                $.ajax({
+                     url:"<?php echo base_url(); ?>index.php/registrasi/check_email_avalibility",
+                     method:"POST",
+                     data:{email:email},
+                     success:function(data){
+                          $('#email_result').html(data);
+                     }
+                });
+           }
+      });
+ });
+ </script>
 
- <script>  
- $(document).ready(function(){  
-      $('#nama_tim').change(function(){  
-           var nama_tim = $('#nama_tim').val();  
-           if(nama_tim != '')  
-           {  
-                $.ajax({  
-                     url:"<?php echo base_url(); ?>index.php/registrasi/check_team_avalibility",  
-                     method:"POST",  
-                     data:{nama_tim:nama_tim},  
-                     success:function(data){  
-                          $('#team_result').html(data);  
-                     }  
-                });  
-           }  
-      });  
- });  
- </script>  
+ <script>
+ $(document).ready(function(){
+      $('#nama_tim').change(function(){
+           var nama_tim = $('#nama_tim').val();
+           if(nama_tim != '')
+           {
+                $.ajax({
+                     url:"<?php echo base_url(); ?>index.php/registrasi/check_team_avalibility",
+                     method:"POST",
+                     data:{nama_tim:nama_tim},
+                     success:function(data){
+                          $('#team_result').html(data);
+                     }
+                });
+           }
+      });
+ });
+
+ function regForm(){
+	 $.ajax({
+				url:"<?php echo base_url(); ?>index.php/registrasi/tambah_aksi",
+				method:"POST",
+				data: $('#regForm').serialize(),
+				dataType : "json",
+				success: function(data){
+
+               if(data.reg=='success') {
+                   alert("Terima kasih data telah tersimpan");
+
+               } else {
+                  alert(data.reg);
+               }
+          },
+          error: function(data){
+               alert("Pastikan anda mengisi semua data");
+          }
+	 });
+ }
+ </script>

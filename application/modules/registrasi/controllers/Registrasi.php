@@ -62,7 +62,7 @@ class Registrasi extends CI_Controller {
 		}
 		else {
 			echo '<label style="color:red; font-size:10pt;"><span style="font-size:10pt" class="material-icons">clear</span> Team Already register</label>';
-			
+
 		}
 
 	}
@@ -78,7 +78,7 @@ class Registrasi extends CI_Controller {
 		$config['encrypt_name'] = TRUE;
 		$config['upload_path']=FCPATH.'images';
 		$this->load->model("main_model");
-		if($this->main_model->is_team_available($_POST["nama_tim"])) { 
+		if($this->main_model->is_team_available($_POST["nama_tim"])) {
 			$nama_tim=$this->input->post('nama_tim');
 			$email=$this->input->post('email');
 			$password=$this->input->post('pswd');
@@ -98,7 +98,7 @@ class Registrasi extends CI_Controller {
 			$this->load->library('upload');
 			$this->upload->initialize($config);
 
-			//ambil data image
+			//ambil data image 1
 			$this->upload->do_upload('ktm1');
 			$data_image=$this->upload->data('file_name');
 			$location=base_url().'images/';
@@ -118,7 +118,7 @@ class Registrasi extends CI_Controller {
 			$wa2=$this->input->post('wa2');
 
 
-			//ambil data image
+			//ambil data image 2
 			$this->upload->do_upload('ktm2');
 			$data_image=$this->upload->data('file_name');
 			$location=base_url().'images/';
@@ -137,12 +137,31 @@ class Registrasi extends CI_Controller {
 			$fak_jur3=$this->input->post('fak_jur3');
 			$no_hp3=$this->input->post('no_hp3');
 			$wa3=$this->input->post('wa3');
-				
+
+			//ambil data image 3
+			$this->upload->do_upload('ktm3');
+			$data_image=$this->upload->data('file_name');
+			$location=base_url().'images/';
+			$pict=$location.$data_image;
+
+
+			$data=array('nama'=> $anggota3,
+			'fakultas'=> $fak_jur3,
+			'no_hp'=> $no_hp3,
+			'whatsapp'=> $wa3,
+			'ktm'=> $pict,
+			'nama_tim'=> $nama_tim);
+			$this->Model_lib->insert("anggota", $data);
+			$req="success";
+
 		} else {
 			echo "Register Failed";
+			$req="fail";
 		}
-		
-		
+		$pro = array('reg'=>$reg);
+		echo json_encode($pro);
+
+
 	}
 
 

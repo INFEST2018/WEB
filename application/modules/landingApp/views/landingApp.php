@@ -128,7 +128,7 @@
                                                 <a href="#"><span>Kategori Lomba</span></a>
                                                 <ul class="sub-menu">
                                                     <li>
-                                                        <a href="<?php echo base_url();?>index.php/pemograman"><span>Coding Contest</span></a>
+                                                        <a href="<?php echo base_url();?>index.php/pemograman"><span>Programming Contest</span></a>
                                                     </li>
                                                     <li>
                                                         <a href="<?php echo base_url();?>index.php/komputer"><span>Olimpiade Komputer</span></a>
@@ -218,7 +218,7 @@
 
                                                     </div>
                                                     <div class="desc_wrapper">
-                                                        <h4>Coding Contest</h4>
+                                                        <h4>Programming Contest</h4>
 
                                                     </div>
                                                 </a>

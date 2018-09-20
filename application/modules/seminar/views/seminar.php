@@ -24,7 +24,7 @@
                                                 <a href="#"><span>Kategori Lomba</span></a>
                                                 <ul class="sub-menu">
                                                     <li>
-                                                        <a href="<?php echo base_url();?>index.php/pemograman"><span>Coding Contest</span></a>
+                                                        <a href="<?php echo base_url();?>index.php/pemograman"><span>Programming Contest</span></a>
                                                     </li>
                                                     
                                                     <li>
