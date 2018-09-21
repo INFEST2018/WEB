@@ -100,7 +100,7 @@
 								</div>
 								<div class="form-group">
 									<label for="email">Email:</label>
-									<span id="email_result"></span> 
+									<span id="email_result"></span>
 									<input type="email" class="form-control" id="email" placeholder="Masukan Email" name="email">
 								</div>
 								<div class="form-group">
@@ -196,7 +196,7 @@
 
 								<br><br><br>
 
-								<button type="submit" onclick="return IsEmpty();" class="btn btn-primary">Submit</button>
+								<button type="submit" onclick="" class="btn btn-primary">Submit</button>
 							</form>
 						</div>
 					</div>
@@ -288,44 +288,44 @@
 			alert("Mohon Upload Scan Ktm Anggota 3");
 			return false;
 		}
-		
+
 		return true;
 	}
 </script>
-<script>  
- $(document).ready(function(){  
-      $('#email').change(function(){  
-           var email = $('#email').val();  
-           if(email != '')  
-           {  
-                $.ajax({  
-                     url:"<?php echo base_url(); ?>index.php/registrasi/check_email_avalibility",  
-                     method:"POST",  
-                     data:{email:email},  
-                     success:function(data){  
-                          $('#email_result').html(data);  
-                     }  
-                });  
-           }  
-      });  
- });  
- </script>  
+<script>
+ $(document).ready(function(){
+      $('#email').change(function(){
+           var email = $('#email').val();
+           if(email != '')
+           {
+                $.ajax({
+                     url:"<?php echo base_url(); ?>index.php/registrasi/check_email_avalibility",
+                     method:"POST",
+                     data:{email:email},
+                     success:function(data){
+                          $('#email_result').html(data);
+                     }
+                });
+           }
+      });
+ });
+ </script>
 
- <script>  
- $(document).ready(function(){  
-      $('#nama_tim').change(function(){  
-           var nama_tim = $('#nama_tim').val();  
-           if(nama_tim != '')  
-           {  
-                $.ajax({  
-                     url:"<?php echo base_url(); ?>index.php/registrasi/check_team_avalibility",  
-                     method:"POST",  
-                     data:{nama_tim:nama_tim},  
-                     success:function(data){  
-                          $('#team_result').html(data);  
-                     }  
-                });  
-           }  
-      });  
- });  
- </script>  
+ <script>
+ $(document).ready(function(){
+      $('#nama_tim').change(function(){
+           var nama_tim = $('#nama_tim').val();
+           if(nama_tim != '')
+           {
+                $.ajax({
+                     url:"<?php echo base_url(); ?>index.php/registrasi/check_team_avalibility",
+                     method:"POST",
+                     data:{nama_tim:nama_tim},
+                     success:function(data){
+                          $('#team_result').html(data);
+                     }
+                });
+           }
+      });
+ });
+ </script>
