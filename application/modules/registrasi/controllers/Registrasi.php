@@ -45,11 +45,11 @@ class Registrasi extends CI_Controller {
 			$this->load->model("main_model");
 
 			if($this->main_model->is_email_available($_POST["email"])) {
-				echo '<label style="color:red; font-size:10pt;"><span style="font-size:10pt" class="material-icons">clear</span> Email Already register</label>';
+				echo '<label style="color:green; font-size:10pt;"><span style="font-size:10pt" class="material-icons">done</span> Email Available</label>';
 			}
 
 			else {
-				echo '<label style="color:green; font-size:10pt;"><span style="font-size:10pt" class="material-icons">done</span> Email Available</label>';
+				echo '<label style="color:red; font-size:10pt;"><span style="font-size:10pt" class="material-icons">clear</span> Email Already register</label>';
 			}
 		}
 	}
@@ -78,11 +78,12 @@ class Registrasi extends CI_Controller {
 		$config['encrypt_name'] = TRUE;
 		$config['upload_path']=FCPATH.'images';
 		$this->load->model("main_model");
-		if($this->main_model->is_team_available($_POST["nama_tim"])) { 
+		if(($this->main_model->is_team_available($_POST["nama_tim"])) && ($this->main_model->is_email_available($_POST["email"]))) { 
 			$nama_tim=$this->input->post('nama_tim');
 			$email=$this->input->post('email');
 			$password=$this->input->post('pswd');
 			$universitas=$this->input->post('universitas');
+			$password= hash('sha256',$password);
 
 			$anggota1=$this->input->post('anggota1');
 			$fak_jur1=$this->input->post('fak_jur1');
@@ -152,9 +153,11 @@ class Registrasi extends CI_Controller {
 			'ktm'=> $pict,
 			'nama_tim'=> $nama_tim);
 			$this->Model_lib->insert("anggota", $data);
-				
+
+			echo "<h1 align='center' style='color:green'>Register Success</h1>";
+			
 		} else {
-			echo "Register Failed";
+			echo "<h1 align='center' style='color:red'>Register Failure</h1>";
 		}
 		
 		

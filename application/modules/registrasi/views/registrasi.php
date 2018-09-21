@@ -233,6 +233,12 @@
 		} else if (document.forms['frm'].pswd.value === "") {
 			alert("Password tidak boleh kosong");
 			return false;
+		} else if (document.forms['frm'].confirm_pswd.value === "") {
+			alert("Mohon Konfirmasi Password");
+			return false;
+		}else if (document.forms['frm'].confirm_pswd.value != document.forms['frm'].pswd.value) {
+			alert("Mohon Periksa Konfirmasi Password");
+			return false;
 		} else if (document.forms['frm'].universitas.value === "") {
 			alert("Masukan Nama Universitas Anda");
 			return false;

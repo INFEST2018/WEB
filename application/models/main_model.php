@@ -7,11 +7,11 @@
            $query = $this->db->get("team");  
            if($query->num_rows() > 0)  
            {  
-                return true;  
+                return false;  
            }  
            else  
            {  
-                return false;  
+                return true;  
            }  
       }  
 
