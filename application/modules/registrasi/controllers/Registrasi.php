@@ -70,7 +70,7 @@ class Registrasi extends CI_Controller {
 
 
 	function tambah_aksi() {
-
+		$this->load->model("main_model");
 		if(($this->main_model->is_team_available($_POST["nama_tim"])) && ($this->main_model->is_email_available($_POST["email"]))) {
 					if($this->sendMail($_POST["email"])==0){
 							// link gagal
@@ -84,7 +84,6 @@ class Registrasi extends CI_Controller {
 								$config['overwrite']=TRUE;
 								$config['encrypt_name'] = TRUE;
 								$config['upload_path']=FCPATH.'images';
-								$this->load->model("main_model");
 
 								$nama_tim=$this->input->post('nama_tim');
 								$email=$this->input->post('email');
