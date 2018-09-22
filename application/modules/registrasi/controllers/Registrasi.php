@@ -201,6 +201,6 @@ class Registrasi extends CI_Controller {
           }else {
                     return 0;
           }
-     }return 0;
+     }
 
 }
