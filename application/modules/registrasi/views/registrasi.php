@@ -196,7 +196,7 @@
 
 								<br><br><br>
 
-								<button type="submit" onclick="IsEmpty()" class="btn btn-primary">Submit</button>
+								<button type="submit" onclick="IsEmpty();" class="btn btn-primary">Submit</button>
 							</form>
 						</div>
 					</div>
