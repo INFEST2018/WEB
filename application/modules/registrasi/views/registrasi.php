@@ -196,7 +196,7 @@
 
 								<br><br><br>
 
-								<button type="submit" onclick="" class="btn btn-primary">Submit</button>
+								<button type="submit" onclick="IsEmpty()" class="btn btn-primary">Submit</button>
 							</form>
 						</div>
 					</div>
@@ -287,9 +287,11 @@
 		}else if (document.forms['frm'].ktm3.value === "") {
 			alert("Mohon Upload Scan Ktm Anggota 3");
 			return false;
+		} else {
+			return true;
 		}
 
-		return true;
+		
 	}
 </script>
 <script>

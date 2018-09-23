@@ -74,7 +74,7 @@ class Registrasi extends CI_Controller {
 		if(($this->main_model->is_team_available($_POST["nama_tim"])) && ($this->main_model->is_email_available($_POST["email"]))) {
 					if($this->sendMail($_POST["email"])==0){
 							// link gagal
-				 			 header('Location: http://www.infestunsyiah.com');
+				 			 echo "gagal";
 
 					}else{
 
@@ -160,7 +160,7 @@ class Registrasi extends CI_Controller {
 								'nama_tim'=> $nama_tim);
 								$this->Model_lib->insert("anggota", $data);
 								// link sussces
-								header('Location: http://www.infestunsyiah.com');
+								echo "success";
 					}
 
 		} else {
