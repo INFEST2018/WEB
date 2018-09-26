@@ -42,7 +42,9 @@
                                             <li>
                                                 <a href="<?php echo base_url();?>index.php/pes"><span>Kompetisi Pes</span></a>
                                             </li>
-                                            
+                                            <li>
+                                                <a href="<?php echo base_url();?>index.php/akustik"><span>Akustik</span></a>
+                                             </li>
                                         </ul>
                                     </li>
 
@@ -150,7 +152,7 @@
                             <ul class="list-content">
                                 <li>Juara 1 mendapatkan uang tunai Rp. 500.000,- + Trophy + sertifikat</li>
                                 <li>Juara 2 mendapatkan uang tunai Rp. 300.000,- + Trophy + sertifikat</li>
-                                <li>Juara 3 mendapatkan uang tunai Rp. 500.000,- + Trophy + sertifikat</li>
+                                <li>Juara 3 mendapatkan uang tunai Rp. 200.000,- + Trophy + sertifikat</li>
                                 <li>Peserta mendapatakan sertifikat</li>
                             </ul>
                             <br><br>

@@ -26,7 +26,7 @@
                                             <li>
                                                 <a href="<?php echo base_url();?>index.php/pemograman"><span>Programming Contest</span></a>
                                             </li>
-                                            
+                                           
                                             <li>
                                                 <a href="<?php echo base_url();?>index.php/komputer"><span>Olimpiade Komputer</span></a>
                                             </li>
@@ -45,7 +45,7 @@
                                             <li>
                                                 <a href="<?php echo base_url();?>index.php/akustik"><span>Akustik</span></a>
                                             </li>
-                                           
+                                            
                                         </ul>
                                     </li>
 
@@ -91,7 +91,7 @@
                     <div class="section_wrapper clearfix">
 
                         <div align="center" style="padding-top: 50px;">
-                            <h1 style="font-size: 40px; line-height: 30px;">Kompetisi PES</h1>
+                            <h1 style="font-size: 40px; line-height: 30px;">Akustik</h1>
                             <img style="padding: 10px 0 50px 0;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
                         </div>
 
@@ -99,65 +99,75 @@
                             <h3>Deskripsi</h3>
                             <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
                             <p class="deskripsi-content">
-                                Pada  event  INFEST  kali  ini,  INFEST  juga  mengadakan  kompetisi  PES (Pro Evolution  Soccer).  Peserta  yang  dapat  mengikuti  kompetisi  ini  adalah  mahasiswa, pelajar  atau  umum  yang  telah  mendaftar.   Perangkat  yang  digunakan  adalah <i style="color:red"> PES 2017, 18, 19</i>  dengan  sistem  perlombaan  menggunakan  sistem <i style="color:red"> knock  out  (sistem gugur)</i>.  Peserta  yang  ingin  bermain  diwajibkan  untuk  mendaftar  terlebih  dahulu.
+                               Rubik’s  Cube  Competition  (Kompetisi  rubik)  ini  diadakan  untuk meramaikan  Expo  kegiatan  INFEST.  Lomba  ini  diadakan  untuk  masyarakat umum.  Rubik  yang  digunakan  untuk  perlombaan  ini  adalah  rubik  yang  berukuran 3x3x3.
+
                             </p>
                             
                             <br><br>
 
-                            <h3>Syarat Pendaftaran</h3>
-                            <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
-                            <ol class="list-content">
-                                <li>Peserta dapat berasal dari segala usia.</li>
-                                <li>Mendaftarkan diri pada lomba PES.</li>
-                            </ol>
-                            <br>
-                            <br>
-                            
                             <h3>Pendaftaran</h3>
                             <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
                             <ol class="list-content">
-                                <li>Pendaftaran dilakukan dengan mengisi formulir yang dapat diambil dari panitia INFEST 2018 yang bertempat di Pos pendaftaran <i style="color:red">Sekretariat FMIPA</i> Universitas Syiah Kuala. </li>
-                                <li>Peserta pendaftar diharuskan membayar biaya pendaftaran  <i style="color:red">Rp. 25.000</i> / slotnya.</li>
-                                
-                                
+                                <li>Pendaftaran di buka secara online mulai tanggal 27 september 2018 s/d 23 oktober 2018.</li>
+                                <li>Untuk formulir bisa di download di link berikut : </li>
+                                <li>Pengembalian formulir di Posko pendaftaran INFEST Gelanggang Mahasiswa Unsyiah. Didepan Kesekretariatan BEM FMIPA Unsyiah.</li>
+                                <li>Batas pengembalian formulir mulai dari 20 oktober 2018 s/d 23 oktober 2018 .</li>
+                                <li>Pendaftar harus membayar biaya pendaftaran Rp. 75.000</li>
+                                <li>Peserta lomba adalah pelajar , mahasiswa/i di kota banda aceh </li>
+                                <li>Satu tim terdiri dari 3 sampai 5 orang</li>
+                                <li>pendaftaran akan di tutup jika kuota sudah mencapai 30 tim</li>
                             </ol>
                             <br><br>
 
 
-                            <h3>Tahapan Lomba</h3>
+                            <h3>Syarat khusus</h3>
                             <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
                             <ol class="list-content">
                                 
-                                <li>Lomba PES akan dilaksanakan pada tanggal 27 Oktober 2018 pukul 14.00 WIB. Kompetisi bersifat <i style="color:red">Knock-out (gugur)</i>, sehingga setiap pemain akan langsung di gugurkan apabila mengalami kekalahan.</li>
-                                <li>Pemenang akan diambil dari juara I, II, dan III lomba PES.</li>
+                                <li>Peserta diperbolehkan membawa alat tambahan sendiri ( panitia hanya menyediakan 1 unit cajon , 1 unit gitar , 1 unit bass , dan 1 unit keyboard )</li>
+                                <li>Satu tim wajib membawakan 2 lagu yaitu 1 lagu bebas , dan 1 lagu wajib dari kami yang sudah disediakan . </li>
+                                <li>Setiap peserta wajib hadir 30 menit sebelum acara.</li>
+                                <li>Pakaian sopan saat penampilan.</li>
+                                <li>Waktu penampilan setiap tim maksimal 10 menit (dihitung mulai dari lagu pertama).</li>
+                                <li>Nama kelompok tim akustik tidak di perbolehkan yang mengandung unsur SARA. </li>
                             </ol>
                             <br><br>
 
-                             <h3>Tempat Perlombaan</h3>
+                            <h3>5 Lagu Wajib Akustik</h3>
                             <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
-                            <ul class="list-content"> 
-                                <li>Panggung Utama INFEST 2018 yang bertempat di Halaman AAC Dayan Dawood Universitas Syiah Kuala</li>
-                            </ul>
-                            <br><br>
-
-
-                            <h3>Pemenang</h3>
-                            <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
-                            <ul class="list-content">
-                                <li>Juara 1 mendapatkan uang tunai Rp. 200.000,- + Sertifikat</li>
-                                <li>Juara 2 mendapatkan uang tunai Rp. 150.000,- + Sertifikat</li>
-                                <li>Juara 3 mendapatkan uang tunai Rp. 100.000,- + Sertifikat</li>
-                            </ul>
+                            <ol class="list-content">
+                                <li>Fourtwnty - Zona nyaman</li>
+                                <li>Tulus - Monokrom</li>
+                                <li>Tulus - Pamit</li>
+                                <li>Maroon 5 - Girls like you</li>
+                                <li>Secondhand serenade - Fall for you </li>
+                            </ol>
                             <br><br>
 
                             
+                            <h3>Tempat Perlombaan</h3>
+                            <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
+                            <ul class="list-content">
+                                <li>Panggung Utama INFEST 2018 yang bertempat di Halaman AAC Dayan Dawood Universitas Syiah Kuala</li>
+                            </ul>
+                            <br><br>
+                            
+                            
+                            <h3>Pemenang</h3>
+                            <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
+                            <ul class="list-content">
+                                <li>Juara 1 mendapatkan uang tunai Rp. 750.000,- + Sertifikat</li>
+                                <li>Juara 2 mendapatkan uang tunai Rp. 500.000,- + Sertifikat</li>
+                                <li>Juara 3 mendapatkan uang tunai Rp. 300.000,- + Sertifikat</li>
+                            </ul>
+                            <br><br>
+
                             <h3 style="color:red">Tanggal Penting</h3>
                             <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
                             <ul class="list-content ">
-                                <li class="icon-calendar">&emsp;Pendaftaran 20 September - 23 Oktober 2018</li>
-                                <li class="icon-calendar">&emsp;Technical meeting  24 Oktober 2018</li>
-                                <li class="icon-calendar">&emsp;Pelaksanaan perlombaan 25 Oktober - 27 Oktober 2018</li>
-                                <li class="icon-calendar">&emsp;Pembagian hadiah pemenang lomba dilakukan pada saat penutupan INFEST 2018</li>
+                                <li class="icon-calendar">&emsp;----</li>
+                                <li class="icon-calendar">&emsp;----</li>
+                                <li class="icon-calendar">&emsp;----</li>
                             </ul>
                         </div>
                     </div>

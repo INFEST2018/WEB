@@ -42,6 +42,9 @@
                                             <li>
                                                 <a href="<?php echo base_url();?>index.php/pes"><span>Kompetisi Pes</span></a>
                                             </li>
+                                            <li>
+                                                <a href="<?php echo base_url();?>index.php/akustik"><span>Akustik</span></a>
+                                            </li>
                                             
                                         </ul>
                                     </li>
@@ -59,8 +62,6 @@
                                         <a href="<?php echo base_url();?>index.php/jadwal"><span>Jadwal</span></a>
 
                                     </li>
-
-
 
                                 </ul>
                             </nav><a class="responsive-menu-toggle" href="#"><i class="icon-menu"></i></a>
