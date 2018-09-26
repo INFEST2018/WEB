@@ -96,7 +96,7 @@
                             <h3>Deskripsi</h3>
                             <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
                             <p class="deskripsi-content">
-                            Coding Contest merupakan lomba dimana peserta menyelesaikan suatu soal atau permasalahan dengan 
+                            Programming Contest merupakan lomba dimana peserta menyelesaikan suatu soal atau permasalahan dengan 
                             program computer yang dibangun dengan Bahasa pemograman (C, C++, java). Peserta di tuntut untuk
                              menyelesaikan permasalahan yang diberikan sebanyak mungkin dengan durasi waktu yang di berikan. 
                              Kriteria penilaian dalam lomba ini antara lain banyaknya permasalahan yang dapat diseslesaiakan 
@@ -104,7 +104,7 @@
                             </p>
                             
                             <p class="deskripsi-content">
-                            Peserta dari Coding Contest adalah tim yang mewakili universitas universitas di Indonesia terdiri dari <i style="color:red">3 mahasiswa/i</i> dan <i style="color:red">1 orang dosen pembimbing.</i>
+                            Peserta dari Coding Contest adalah tim yang mewakili universitas universitas di Indonesia terdiri dari <i style="color:red">3 mahasiswa/i</i>
                                 <br><br><br>
                             </p>
 

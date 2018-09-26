@@ -130,6 +130,10 @@
 									<input type="text" class="form-control" id="anggota1" placeholder="Nama" name="anggota1">
 								</div>
 								<div class="form-group">
+									<label for="nim1">NIM:</label>
+									<input type="text" class="form-control" id="nim1" placeholder="Nomor Induk Mahasiswa" name="nim1">
+								</div>
+								<div class="form-group">
 									<label for="fak_jur1">Fakultas/Jurusan:</label>
 									<input type="text" class="form-control" id="fak_jur1" placeholder="Fakultas/Jurusan" name="fak_jur1">
 								</div>
@@ -152,6 +156,10 @@
 								<div class="form-group">
 									<label for="anggota2">Nama:</label>
 									<input type="text" class="form-control" id="anggota2" placeholder="Nama" name="anggota2">
+								</div>
+								<div class="form-group">
+									<label for="nim2">NIM:</label>
+									<input type="text" class="form-control" id="nim2" placeholder="Nomor Induk Mahasiswa" name="nim2">
 								</div>
 								<div class="form-group">
 									<label for="fak_jur2">Fakultas/Jurusan:</label>
@@ -178,6 +186,10 @@
 									<input type="text" class="form-control" id="anggota3" placeholder="Nama" name="anggota3">
 								</div>
 								<div class="form-group">
+									<label for="nim3">NIM:</label>
+									<input type="text" class="form-control" id="nim3" placeholder="Nomor Induk Mahasiswa" name="nim3">
+								</div>
+								<div class="form-group">
 									<label for="fak_jur3">Fakultas/Jurusan:</label>
 									<input type="text" class="form-control" id="fak_jur3" placeholder="Fakultas/Jurusan" name="fak_jur3">
 								</div>
@@ -196,7 +208,7 @@
 
 								<br><br><br>
 
-								<button type="submit" onclick="IsEmpty();" class="btn btn-primary">Submit</button>
+								<button type="submit" onclick="return IsEmpty();" class="btn btn-primary">Submit</button>
 							</form>
 						</div>
 					</div>
@@ -233,10 +245,13 @@
 		} else if (document.forms['frm'].pswd.value === "") {
 			alert("Password tidak boleh kosong");
 			return false;
+		} else if (document.forms['frm'].pswd.value.length < 6) {
+			alert("Password harus terdiri dari 6 character atau lebih");
+			return false;
 		} else if (document.forms['frm'].confirm_pswd.value === "") {
 			alert("Mohon Konfirmasi Password");
 			return false;
-		}else if (document.forms['frm'].confirm_pswd.value != document.forms['frm'].pswd.value) {
+		} else if (document.forms['frm'].confirm_pswd.value != document.forms['frm'].pswd.value) {
 			alert("Mohon Periksa Konfirmasi Password");
 			return false;
 		} else if (document.forms['frm'].universitas.value === "") {
@@ -245,19 +260,25 @@
 		} else if (document.forms['frm'].anggota1.value === "") {
 			alert("Lengkapi data Anggota 1");
 			return false;
+		}else if (document.forms['frm'].nim1.value === "") {
+			alert("Lengkapi data Anggota 1");
+			return false;
 		} else if (document.forms['frm'].fak_jur1.value === "") {
 			alert("Lengkapi data Anggota 1");
 			return false;
 		} else if (document.forms['frm'].no_hp1.value === "") {
 			alert("Lengkapi data Anggota 1");
 			return false;
-		}else if (document.forms['frm'].wa1.value === "") {
+		} else if (document.forms['frm'].wa1.value === "") {
 			alert("Lengkapi data Anggota 1");
 			return false;
-		}else if (document.forms['frm'].ktm1.value === "") {
+		} else if (document.forms['frm'].ktm1.value === "") {
 			alert("Mohon Upload Scan Ktm Anggota 1");
 			return false;
-		}  else if (document.forms['frm'].anggota2.value === "") {
+		} else if (document.forms['frm'].anggota2.value === "") {
+			alert("Lengkapi data Anggota 2");
+			return false;
+		} else if (document.forms['frm'].nim2.value === "") {
 			alert("Lengkapi data Anggota 2");
 			return false;
 		} else if (document.forms['frm'].fak_jur2.value === "") {
@@ -266,13 +287,16 @@
 		} else if (document.forms['frm'].no_hp2.value === "") {
 			alert("Lengkapi data Anggota 2");
 			return false;
-		}else if (document.forms['frm'].wa2.value === "") {
+		} else if (document.forms['frm'].wa2.value === "") {
 			alert("Lengkapi data Anggota 2");
 			return false;
-		}else if (document.forms['frm'].ktm2.value === "") {
+		} else if (document.forms['frm'].ktm2.value === "") {
 			alert("Mohon Upload Scan Ktm Anggota 2");
 			return false;
-		}   else if (document.forms['frm'].anggota3.value === "") {
+		} else if (document.forms['frm'].anggota3.value === "") {
+			alert("Lengkapi data Anggota 3");
+			return false;
+		} else if (document.forms['frm'].nim3.value === "") {
 			alert("Lengkapi data Anggota 3");
 			return false;
 		} else if (document.forms['frm'].fak_jur3.value === "") {
@@ -281,7 +305,7 @@
 		} else if (document.forms['frm'].no_hp3.value === "") {
 			alert("Lengkapi data Anggota 3");
 			return false;
-		}else if (document.forms['frm'].wa3.value === "") {
+		} else if (document.forms['frm'].wa3.value === "") {
 			alert("Lengkapi data Anggota 3");
 			return false;
 		}else if (document.forms['frm'].ktm3.value === "") {

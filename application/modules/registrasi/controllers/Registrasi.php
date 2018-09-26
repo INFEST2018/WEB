@@ -72,9 +72,27 @@ class Registrasi extends CI_Controller {
 	function tambah_aksi() {
 		$this->load->model("main_model");
 		if(($this->main_model->is_team_available($_POST["nama_tim"])) && ($this->main_model->is_email_available($_POST["email"]))) {
-					if($this->sendMail($_POST["email"])==0){
+					if($this->sendMail($_POST["email"],$_POST["nama_tim"],$_POST["pswd"],$_POST["universitas"],$_POST["anggota1"],$_POST["anggota2"],$_POST["anggota3"],$_POST["nim1"],$_POST["nim2"],$_POST["nim3"])==0){
 							// link gagal
-				 			 echo "gagal";
+				 			 echo '<html>
+
+							  <body>
+								  <div style="margin:10px 100px; background-color:#eaeaea">
+									  <div style="background-color:#0e074b">
+										  <h2 align="center" style="color:white;">Registrasi Gagal</h2>
+										  <div style="background-color:#696969; width:100%; height:10px; "></div>
+									  </div>
+									  <div></div>
+									  <br><br>
+									  <div style="padding: 0px 20px 20px 20px;">
+
+									  <p>Mohon Masukkan email yang valid</p>
+							  
+									  </div>
+								  </div>
+							  </body>
+							  
+							  </html>';
 
 					}else{
 
@@ -92,6 +110,7 @@ class Registrasi extends CI_Controller {
 								$password= hash('sha256',$password);
 
 								$anggota1=$this->input->post('anggota1');
+								$nim1=$this->input->post('nim1');
 								$fak_jur1=$this->input->post('fak_jur1');
 								$no_hp1=$this->input->post('no_hp1');
 								$wa1=$this->input->post('wa1');
@@ -112,6 +131,7 @@ class Registrasi extends CI_Controller {
 								$pict=$location.$data_image;
 
 								$data=array('nama'=> $anggota1,
+								'nim'=> $nim1,
 								'fakultas'=> $fak_jur1,
 								'no_hp'=> $no_hp1,
 								'whatsapp'=> $wa1,
@@ -120,6 +140,7 @@ class Registrasi extends CI_Controller {
 								$this->Model_lib->insert("anggota", $data);
 
 								$anggota2=$this->input->post('anggota2');
+								$nim2=$this->input->post('nim2');
 								$fak_jur2=$this->input->post('fak_jur2');
 								$no_hp2=$this->input->post('no_hp2');
 								$wa2=$this->input->post('wa2');
@@ -133,6 +154,7 @@ class Registrasi extends CI_Controller {
 
 
 								$data=array('nama'=> $anggota2,
+								'nim'=> $nim2,
 								'fakultas'=> $fak_jur2,
 								'no_hp'=> $no_hp2,
 								'whatsapp'=> $wa2,
@@ -141,6 +163,7 @@ class Registrasi extends CI_Controller {
 								$this->Model_lib->insert("anggota", $data);
 
 								$anggota3=$this->input->post('anggota3');
+								$nim3=$this->input->post('nim3');
 								$fak_jur3=$this->input->post('fak_jur3');
 								$no_hp3=$this->input->post('no_hp3');
 								$wa3=$this->input->post('wa3');
@@ -153,6 +176,7 @@ class Registrasi extends CI_Controller {
 
 
 								$data=array('nama'=> $anggota3,
+								'nim'=> $nim3,
 								'fakultas'=> $fak_jur3,
 								'no_hp'=> $no_hp3,
 								'whatsapp'=> $wa3,
@@ -160,17 +184,53 @@ class Registrasi extends CI_Controller {
 								'nama_tim'=> $nama_tim);
 								$this->Model_lib->insert("anggota", $data);
 								// link sussces
-								echo "success";
+								echo '<html>
+
+								<body>
+									<div style="margin:10px 100px; background-color:#eaeaea">
+										<div style="background-color:#0e074b">
+											<h2 align="center" style="color:white;">Registrasi Berhasil</h2>
+											<div style="background-color:#696969; width:100%; height:10px; "></div>
+										</div>
+										<div></div>
+										<br><br>
+										<div style="padding: 0px 20px 20px 20px;">
+
+										<p>Untuk keterangan lebih lanjut mohon perikasa email anda</p>
+								
+										</div>
+									</div>
+								</body>
+								
+								</html>';
 					}
 
 		} else {
 				// link gagal
-				header('Location: http://www.infestunsyiah.com');
+				echo '<html>
+
+				<body>
+					<div style="margin:10px 100px; background-color:#eaeaea">
+						<div style="background-color:#0e074b">
+							<h2 align="center" style="color:white;">Registrasi Gagal</h2>
+							<div style="background-color:#696969; width:100%; height:10px; "></div>
+						</div>
+						<div></div>
+						<br><br>
+						<div style="padding: 0px 20px 20px 20px;">
+
+						<p>Mohon Masukkan email dan team yang valid</p>
+				
+						</div>
+					</div>
+				</body>
+				
+				</html>';
 		}
 
 	}
 
-	public function sendMail($emailS=null){
+	public function sendMail($emailS=null,$team,$password,$universitas,$anggota1,$anggota2,$anggota3,$nim1,$nim2,$nim3){
           //Load email library
      $this->load->library('email');
      //SMTP & mail configuration
@@ -178,8 +238,8 @@ class Registrasi extends CI_Controller {
          'protocol'  => 'smtp',
          'smtp_host' => 'ssl://smtp.googlemail.com',
          'smtp_port' => 465,
-         'smtp_user' => 'muammar.clasic@gmail.com',
-         'smtp_pass' => 'sudo-apt-get-update',
+         'smtp_user' => 'infest.unsyiah@gmail.com',
+         'smtp_pass' => 'InfestU$k2018',
          'mailtype'  => 'html',
          'charset'   => 'utf-8'
      );
@@ -188,10 +248,48 @@ class Registrasi extends CI_Controller {
      $this->email->set_newline("\r\n");
      //Email content
      $htmlContent = '
-     <html><p>tes</p> </html>
+	 <html>
+
+<body>
+    <div style="margin:10px 10%; background-color:#eaeaea">
+        <div style="background-color:#0e074b">
+            <h2 align="center" style="color:white;">Registrasi Berhasil</h2>
+            <div style="background-color:#696969; width:100%; height:10px; "></div>
+        </div>
+        <div></div>
+        <br><br>
+		<div style="padding: 0px 20px 20px 20px;">
+		
+			 <span>Nama Tim : '.$team.'</span> <br>
+			 <span>password : '.$password.'</span><br>
+			 <span>Universitas : '.$universitas.'</span><br>
+			 <span>Anggota : </span>
+			 <table style="width:100%">
+				<tr>
+					<th>'.$anggota1.'</th>
+					<td>'.$nim1.'</td>
+				</tr>
+				<tr>
+					<th>'.$anggota2.'</th>
+					<td>'.$nim2.'</td>
+				</tr>
+				<tr>
+	 				<th>'.$anggota3.'</th>
+					<td>'.$nim3.'</td>
+				</tr>
+			</table>
+            <p>Terima Kasih telah melakukan pendaftaran untuk lomba Programming Contest,
+                untuk selanjutnya pihak panitia akan mengirim pesan melalui <i style="color:blue">email</i> setelah
+                melakukan <i style="color:blue">verifikasi</i> data tim peserta</p>
+
+        </div>
+    </div>
+</body>
+
+</html>
      ';
      $this->email->to($emailS);
-     $this->email->from('muammar.clasic@gmail.com');
+     $this->email->from('Informatics Festival');
      $this->email->subject('Pendaftaran INFEST 2018');
      $this->email->message($htmlContent);
      //Send email

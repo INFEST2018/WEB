@@ -199,3 +199,25 @@ select,
 textarea {
     width: 600px;
 }
+
+/*sponsor*/
+
+.sponsor {
+    margin: 10px 30px;  
+}
+
+.content-sponsor {
+   display: table;
+   margin: 0 auto;
+   text-align: center;
+}
+
+.line-sponsor {
+    list-style: none;
+}
+.line-sponsor li {
+    display: inline;
+}
+.img-sponsor {
+    width: 250px; 
+}

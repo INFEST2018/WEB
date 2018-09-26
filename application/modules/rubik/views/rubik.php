@@ -96,58 +96,58 @@
                             <h3>Deskripsi</h3>
                             <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
                             <p class="deskripsi-content">
-                                Rubik’s  Cube  Competition  (Kompetisi  rubik)  ini  diadakan  untuk meramaikan  Expo  kegiatan  INFEST.  Lomba  ini  diadakan  untuk  <i></i>masyarakat umum.  Rubik  yang  digunakan  untuk  perlombaan  ini  adalah  rubik  yang <i style="color:red"> berukuran 3x3x3</i>
+                               Rubik’s  Cube  Competition  (Kompetisi  rubik)  ini  diadakan  untuk meramaikan  Expo  kegiatan  INFEST.  Lomba  ini  diadakan  untuk  masyarakat umum.  Rubik  yang  digunakan  untuk  perlombaan  ini  adalah  rubik  yang  berukuran 3x3x3.
+
                             </p>
                             
                             <br><br>
 
-                            <h3>Syarat Pendaftaran</h3>
-                            <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
-                            <ol class="list-content">
-                                <li>Peserta dapat berasal dari segala usia.</li>
-                                <li>Mendaftarkan diri pada perlombaan Rubik’s Cube Competition</li>
-                            </ol>
-                            <br>
-                            <br>
+                           
                             
                             <h3>Pendaftaran</h3>
                             <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
                             <ol class="list-content">
-                                <li>Pendaftaran dilakukan perorangan dengan mengisi formulir yang dapat diambil dari panitia Rubik’s Cube Competition yang bertempat di ruang <i style="color:red">Laboratorium Pemrograman dan Database (PDB) lantai III Laboratorium Terpadu Universitas Syiah Kuala.</i></li>
-                                <li>Pengembalian formulir ditutup pada tanggal ------.</li>
-                                <li>Setiap calon peserta yang mendaftarkan diri pada Rubik’s Cube Comppetition diharuskan membayar biaya pendaftaran sebesar <i style="color:red">Rp. 10.000.</i></li>
+                                <li>Pendaftaran dilakukan dengan mengisi formulir yang dapat diambil dari panitia INFEST 2018 yang bertempat di Pos pendaftaran <i style="color:red">Sekretariat FMIPA </i> Universitas Syiah Kuala</i></li>
+                                <li>Pendaftaran dapat dilakukan pada tanggal 20 september - 23 oktober 2018</li>
+                                <li>Setiap calon peserta yang mendaftarkan diri pada Rubik’s Cube Comppetition diharuskan membayar biaya pendaftaran sebesar <i style="color:red">Rp. 10.000,-.</i></li>
                                 
                             </ol>
                             <br><br>
 
 
-                            <h3>Tahapan Lomba</h3>
+                            <h3>Syarat khusus</h3>
                             <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
                             <ol class="list-content">
                                 
-                                <li>--------</li>
-                                <li>--------</li>
+                                <li>Saat ingin bermain harap memperlihat bukti pembayaran atau pendaftaran</li>
+                                <li>Mengikuti peraturan yang telah ditentukan oleh panitia</li>
                             </ol>
                             <br><br>
 
                             
-                            <h3>Kriteria Penilaian</h3>
+                            <h3>Tempat Perlombaan</h3>
                             <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
-                            <ol class="list-content">
-                                <li>-------</li>
-                                <li>-------</li>
-                            </ol>
+                            <ul class="list-content">
+                                <li>Panggung Utama INFEST 2018 yang bertempat di Halaman AAC Dayan Dawood Universitas Syiah Kuala</li>
+                            </ul>
+                            <br><br>
+                            
+                            
+                            <h3>Pemenang</h3>
+                            <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
+                            <ul class="list-content">
+                                <li>Juara 1 mendapatkan uang tunai Rp. 200.000,- + Sertifikat</li>
+                                <li>Juara 2 mendapatkan uang tunai Rp. 150.000,- + Sertifikat</li>
+                                <li>Juara 3 mendapatkan uang tunai Rp. 100.000,- + Sertifikat</li>
+                            </ul>
                             <br><br>
 
-                            
                             <h3 style="color:red">Tanggal Penting</h3>
                             <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
                             <ul class="list-content ">
-                                <li class="icon-calendar">&emsp;-------</li>
-                                <li class="icon-calendar">&emsp;-------</li>
-                                <li class="icon-calendar">&emsp;-------</li>
-                                <li class="icon-calendar">&emsp;-------</li>
-                                <li class="icon-calendar">&emsp;-------</li>
+                                <li class="icon-calendar">&emsp;Tanggal pendaftaran : 20 september - 23 oktober 2018</li>
+                                <li class="icon-calendar">&emsp;Technical meeting : 24 oktober 2018</li>
+                                <li class="icon-calendar">&emsp;Tanggal lomba : 26 oktober 2018</li>
                             </ul>
                         </div>
                     </div>
