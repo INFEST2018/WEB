@@ -18,26 +18,15 @@ class Sitemap extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
+	function __construct() {
+		parent::__construct();
+		//$this->load->library('sitemap');
+	}
+
 	public function index()
 	{
-		// first load the library
-        $this->load->library('sitemap');
-
-        // create new instance
-        $sitemap = new Sitemap();
-    
-        // add items to your sitemap (url, date, priority, freq)
-        $sitemap->add('http://mysite.tld/', '2012-08-25T20:10:00+02:00', '1.0', 'daily');
-        $sitemap->add('http://mysite.tld/page1', '2012-08-26T22:30:00+02:00', '0.6', 'monthly');
-        $sitemap->add('http://mysite.tld/page2', '2012-08-26T23:45:00+02:00', '0.9', 'weekly');
-    
-        // add multiple items with a loop
-        /*foreach ($posts as $post)
-        {
-            $sitemap->add($post->slug, $post->date, $post->priority, $post->freq);
-        }*/
-    
-        // show your sitemap (options: 'xml', 'google-news', 'sitemapindex' 'html', 'txt', 'ror-rss', 'ror-rdf')
-        $sitemap->render('xml');
+		$url_list = array('jadwal','komputer','mengetik','mobilelegend','pemograman','pengumuman','pes','registrasi','rubik','seminar');
+		$data = array('url_list' => $url_list);
+        $this->load->view("sitemap",$data);
 	}
 }
