@@ -100,7 +100,7 @@
 								</div>
 								<div class="form-group">
 									<label for="email">Email:</label>
-									<span id="email_result"></span> 
+									<span id="email_result"></span>
 									<input type="email" class="form-control" id="email" placeholder="Masukan Email" name="email">
 								</div>
 								<div class="form-group">
@@ -130,6 +130,10 @@
 									<input type="text" class="form-control" id="anggota1" placeholder="Nama" name="anggota1">
 								</div>
 								<div class="form-group">
+									<label for="nim1">NIM:</label>
+									<input type="text" class="form-control" id="nim1" placeholder="Nomor Induk Mahasiswa" name="nim1">
+								</div>
+								<div class="form-group">
 									<label for="fak_jur1">Fakultas/Jurusan:</label>
 									<input type="text" class="form-control" id="fak_jur1" placeholder="Fakultas/Jurusan" name="fak_jur1">
 								</div>
@@ -142,7 +146,7 @@
 									<input type="text" class="form-control" id="wa1" placeholder="Whatsapp" name="wa1">
 								</div>
 								<div class="form-group">
-									<label for="ktm1">Scan Ktm</label>
+									<label for="ktm1">Scan Ktm (maks: 10 Mb png/jpg)</label>
 									<input type="file" class="form-control" id="ktm1" name="ktm1">
 								</div>
 
@@ -152,6 +156,10 @@
 								<div class="form-group">
 									<label for="anggota2">Nama:</label>
 									<input type="text" class="form-control" id="anggota2" placeholder="Nama" name="anggota2">
+								</div>
+								<div class="form-group">
+									<label for="nim2">NIM:</label>
+									<input type="text" class="form-control" id="nim2" placeholder="Nomor Induk Mahasiswa" name="nim2">
 								</div>
 								<div class="form-group">
 									<label for="fak_jur2">Fakultas/Jurusan:</label>
@@ -166,7 +174,7 @@
 									<input type="text" class="form-control" id="wa2" placeholder="Whatsapp" name="wa2">
 								</div>
 								<div class="form-group">
-									<label for="ktm2">Scan Ktm</label>
+									<label for="ktm2">Scan Ktm (maks: 10 Mb png/jpg)</label>
 									<input type="file" class="form-control" id="ktm2" name="ktm2">
 								</div>
 
@@ -176,6 +184,10 @@
 								<div class="form-group">
 									<label for="anggota3">Nama:</label>
 									<input type="text" class="form-control" id="anggota3" placeholder="Nama" name="anggota3">
+								</div>
+								<div class="form-group">
+									<label for="nim3">NIM:</label>
+									<input type="text" class="form-control" id="nim3" placeholder="Nomor Induk Mahasiswa" name="nim3">
 								</div>
 								<div class="form-group">
 									<label for="fak_jur3">Fakultas/Jurusan:</label>
@@ -190,7 +202,7 @@
 									<input type="text" class="form-control" id="wa3" placeholder="Whatsapp" name="wa3">
 								</div>
 								<div class="form-group">
-									<label for="ktm3">Scan Ktm</label>
+									<label for="ktm3">Scan Ktm (maks: 10 Mb png/jpg)</label>
 									<input type="file" class="form-control" id="ktm3" name="ktm3">
 								</div>
 
@@ -233,10 +245,13 @@
 		} else if (document.forms['frm'].pswd.value === "") {
 			alert("Password tidak boleh kosong");
 			return false;
+		} else if (document.forms['frm'].pswd.value.length < 6) {
+			alert("Password harus terdiri dari 6 character atau lebih");
+			return false;
 		} else if (document.forms['frm'].confirm_pswd.value === "") {
 			alert("Mohon Konfirmasi Password");
 			return false;
-		}else if (document.forms['frm'].confirm_pswd.value != document.forms['frm'].pswd.value) {
+		} else if (document.forms['frm'].confirm_pswd.value != document.forms['frm'].pswd.value) {
 			alert("Mohon Periksa Konfirmasi Password");
 			return false;
 		} else if (document.forms['frm'].universitas.value === "") {
@@ -245,19 +260,25 @@
 		} else if (document.forms['frm'].anggota1.value === "") {
 			alert("Lengkapi data Anggota 1");
 			return false;
+		}else if (document.forms['frm'].nim1.value === "") {
+			alert("Lengkapi data Anggota 1");
+			return false;
 		} else if (document.forms['frm'].fak_jur1.value === "") {
 			alert("Lengkapi data Anggota 1");
 			return false;
 		} else if (document.forms['frm'].no_hp1.value === "") {
 			alert("Lengkapi data Anggota 1");
 			return false;
-		}else if (document.forms['frm'].wa1.value === "") {
+		} else if (document.forms['frm'].wa1.value === "") {
 			alert("Lengkapi data Anggota 1");
 			return false;
-		}else if (document.forms['frm'].ktm1.value === "") {
+		} else if (document.forms['frm'].ktm1.value === "") {
 			alert("Mohon Upload Scan Ktm Anggota 1");
 			return false;
-		}  else if (document.forms['frm'].anggota2.value === "") {
+		} else if (document.forms['frm'].anggota2.value === "") {
+			alert("Lengkapi data Anggota 2");
+			return false;
+		} else if (document.forms['frm'].nim2.value === "") {
 			alert("Lengkapi data Anggota 2");
 			return false;
 		} else if (document.forms['frm'].fak_jur2.value === "") {
@@ -266,13 +287,16 @@
 		} else if (document.forms['frm'].no_hp2.value === "") {
 			alert("Lengkapi data Anggota 2");
 			return false;
-		}else if (document.forms['frm'].wa2.value === "") {
+		} else if (document.forms['frm'].wa2.value === "") {
 			alert("Lengkapi data Anggota 2");
 			return false;
-		}else if (document.forms['frm'].ktm2.value === "") {
+		} else if (document.forms['frm'].ktm2.value === "") {
 			alert("Mohon Upload Scan Ktm Anggota 2");
 			return false;
-		}   else if (document.forms['frm'].anggota3.value === "") {
+		} else if (document.forms['frm'].anggota3.value === "") {
+			alert("Lengkapi data Anggota 3");
+			return false;
+		} else if (document.forms['frm'].nim3.value === "") {
 			alert("Lengkapi data Anggota 3");
 			return false;
 		} else if (document.forms['frm'].fak_jur3.value === "") {
@@ -281,51 +305,53 @@
 		} else if (document.forms['frm'].no_hp3.value === "") {
 			alert("Lengkapi data Anggota 3");
 			return false;
-		}else if (document.forms['frm'].wa3.value === "") {
+		} else if (document.forms['frm'].wa3.value === "") {
 			alert("Lengkapi data Anggota 3");
 			return false;
 		}else if (document.forms['frm'].ktm3.value === "") {
 			alert("Mohon Upload Scan Ktm Anggota 3");
 			return false;
+		} else {
+			return true;
 		}
+
 		
-		return true;
 	}
 </script>
-<script>  
- $(document).ready(function(){  
-      $('#email').change(function(){  
-           var email = $('#email').val();  
-           if(email != '')  
-           {  
-                $.ajax({  
-                     url:"<?php echo base_url(); ?>index.php/registrasi/check_email_avalibility",  
-                     method:"POST",  
-                     data:{email:email},  
-                     success:function(data){  
-                          $('#email_result').html(data);  
-                     }  
-                });  
-           }  
-      });  
- });  
- </script>  
+<script>
+ $(document).ready(function(){
+      $('#email').change(function(){
+           var email = $('#email').val();
+           if(email != '')
+           {
+                $.ajax({
+                     url:"<?php echo base_url(); ?>index.php/registrasi/check_email_avalibility",
+                     method:"POST",
+                     data:{email:email},
+                     success:function(data){
+                          $('#email_result').html(data);
+                     }
+                });
+           }
+      });
+ });
+ </script>
 
- <script>  
- $(document).ready(function(){  
-      $('#nama_tim').change(function(){  
-           var nama_tim = $('#nama_tim').val();  
-           if(nama_tim != '')  
-           {  
-                $.ajax({  
-                     url:"<?php echo base_url(); ?>index.php/registrasi/check_team_avalibility",  
-                     method:"POST",  
-                     data:{nama_tim:nama_tim},  
-                     success:function(data){  
-                          $('#team_result').html(data);  
-                     }  
-                });  
-           }  
-      });  
- });  
- </script>  
+ <script>
+ $(document).ready(function(){
+      $('#nama_tim').change(function(){
+           var nama_tim = $('#nama_tim').val();
+           if(nama_tim != '')
+           {
+                $.ajax({
+                     url:"<?php echo base_url(); ?>index.php/registrasi/check_team_avalibility",
+                     method:"POST",
+                     data:{nama_tim:nama_tim},
+                     success:function(data){
+                          $('#team_result').html(data);
+                     }
+                });
+           }
+      });
+ });
+ </script>

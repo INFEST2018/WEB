@@ -106,7 +106,7 @@
                             <ol class="list-content">
                                 <li>Peserta dapat berasal dari segala usia.</li>
                                 <li>Mendaftarkan tim pada perlombaan Mobile Legends.</li>
-                                <li>Setiap tim terdiri dari <i style="color:red">5 orang.</i></li>
+                                <li>Setiap tim terdiri dari <i style="color:red">5 orang + 1 cadangan.</i></li>
                             </ol>
                             <br>
                             <br>
@@ -114,41 +114,49 @@
                             <h3>Pendaftaran</h3>
                             <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
                             <ol class="list-content">
-                                <li>Pendaftaran dilakukan oleh perwakilan tim dengan mengisi formulir yang dapat diambil dari panitia lomba Mobile Legends yang bertempat di ruang <i style="color:red">Laboratorium Pemrograman dan Database (PDB) lantai III Laboratorium Terpadu Universitas Syiah Kuala.</i></li>
-                                <li>Pengembalian formulir ditutup pada tanggal ---------.</li>
-                                <li>Setiap calon peserta yang mendaftarkan diri pada kompetisi Mobile Legends diharuskan membayar biaya pendaftaran sebesar <i style="color:red">Rp. --------</i></li>
+                                <li>Pendaftaran dilakukan oleh perwakilan tim dengan mengisi formulir yang dapat diambil dari panitia INFEST 2018 yang bertempat di Pos pendaftaran <i style="color:red">Sekretariat FMIPA</i> Universitas Syiah Kuala.</li>
+                                <li>Setiap calon peserta yang mendaftarkan diri pada kompetisi Mobile Legends diharuskan membayar biaya pendaftaran sebesar <i style="color:red">Rp. 150.000,-</i></li>
                                 
                             </ol>
                             <br><br>
 
 
-                            <h3>Tahapan Lomba</h3>
+                            <h3>Syarat khusus</h3>
                             <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
                             <ol class="list-content">
                                 
-                                <li>--------</li>
-                                <li>--------</li>
+                                <li>All tier, skin on, draftpick mode.</li>
+                                <li>32 slot (single slot)</li>
                             </ol>
                             <br><br>
 
-                            
-                            <h3>Kriteria Penilaian</h3>
+                             <h3>Tempat Perlombaan</h3>
                             <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
-                            <ol class="list-content">
-                                <li>-------</li>
-                                <li>-------</li>
-                            </ol>
+                            <ul class="list-content"> 
+                                <li>Panggung Utama INFEST 2018 yang bertempat di Halaman AAC Dayan Dawood Universitas Syiah Kuala</li>
+                            </ul>
                             <br><br>
+
+
+                           <h3>Pemenang</h3>
+                            <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
+                            <ul class="list-content">
+                                <li>Juara 1 mendapatkan uang tunai Rp. 1.000.000,- + Trophy + sertifikat</li>
+                                <li>Juara 2 mendapatkan uang tunai Rp. 750.000,- + Trophy + sertifikat</li>
+                                <li>Juara 3 mendapatkan uang tunai Rp. 500.000,- + Trophy + sertifikat</li>
+                                <li>Best Player mendapatkan uang tunai Rp. 150.000,-</li>
+                            </ul>
+                            <br><br>
+
 
                             
                             <h3 style="color:red">Tanggal Penting</h3>
                             <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
                             <ul class="list-content ">
-                                <li class="icon-calendar">&emsp;-------</li>
-                                <li class="icon-calendar">&emsp;-------</li>
-                                <li class="icon-calendar">&emsp;-------</li>
-                                <li class="icon-calendar">&emsp;-------</li>
-                                <li class="icon-calendar">&emsp;-------</li>
+                                <li class="icon-calendar">&emsp;Pendaftaran 17 September - 23 Oktober 2018</li>
+                                <li class="icon-calendar">&emsp;Technical meeting  24 Oktober 2018. Tempat dan waktu akan diinformasikan lagi.</li>
+                                <li class="icon-calendar">&emsp;Pelaksanaan perlombaan 26 Oktober - 27 Oktober 2018.</li>
+                                <li class="icon-calendar">&emsp;Pembagian hadiah pemenang lomba dilakukan pada saat penutupan INFEST 2018</li>
                             </ul>
                         </div>
                     </div>

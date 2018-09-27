@@ -96,7 +96,14 @@
                             <h3>Deskripsi</h3>
                             <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
                             <p class="deskripsi-content">
-                                Olimpiade  Komputer  bertujuan  untuk  mengasah  kemampuan  para  peserta SMA/MA  sederajat  dalam  bidang  komputer/informatika.  Peserta  akan   di berikan soal - soal  mengenai materi  dasar  pemrograman.  Materi  Utama  yang  akan  diujikan pada  olimpiade  komputer  ini  adalah  pemrograman,  struktur  data,  dan  algoritma. Olimpiade  berlangsung  selama <i style="color:red"> 120  menit</i>.  Peserta  diharuskan  menjawab  soal – soal yang  telah  disajikan  secara  tertulis  dan  dalam  jangka  waktu  yang  telah ditentukan.  Pemenang  ditentukan  dari <i style="color:red"> 3 peserta dengan  skor tertinggi</i>.
+                                Olimpiade  Komputer  bertujuan  untuk  mengasah  kemampuan  para peserta SMA/MA sederajat 
+                                dalam bidang komputer/informatika.  Peserta akan diberikan soal-soal mengenai materi dasar
+                                pemrograman.  Materi  Utama  yang  akan  diujikan pada  olimpiade  komputer  ini  adalah  
+                                pemrograman,  struktur  data,  dan  algoritma. Olimpiade  berlangsung  selamat <i style="color:red">  120  menit</i>.
+                                Peserta  diharuskan  menjawab  soal – soal yang  telah  disajikan  secara  tertulis  dan 
+                                dalam  jangka  waktu  yang  telah ditentukan.  Pemenang  ditentukan  dari 3 peserta dengan 
+                                skor tertinggi.
+
                             </p>
                             
                             <br><br>
@@ -115,40 +122,45 @@
                             <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
                             <ol class="list-content">
                                 <li>Sekolah yang diundang akan diberikan formulir untuk mendaftarkan 5 orang siswa/I calon peserta olimpiade</li>
-                                <li>Pendaftaran formulir pendaftaran dikembalikan kepada panitia olimpiade komputer bertempat di ruang <i style="color:red"> Laboratorium Pemrograman dan Database (PDB) lantai III Laboratorium Terpadu Universitas Syiah Kuala.</i></li>
-                                <li>Pengembalian formulir ditutup pada tanggal ------.</li>
+                                <li>Pendaftaran dilakukan dengan mengisi formulir 17 September - 24 Oktober yang dapat diambil dari panitia INFEST 2018 yang bertempat di Pos pendaftaran <i style="color:red"> Sekretariat FMIPA </i>Universitas Syiah Kuala</li>
+                                <li>Pendaftaran formulir pendaftaran dikembalikan kepada panitia olimpiade komputer bertempat di ruang <i style="color:red"> Laboratorium Pemrograman dan Database (PDB) lantai III Laboratorium Terpadu</i> Universitas Syiah Kuala.</li>
+                                <li>Setiap peserta yang mendaftarkan tim olimpiade diharuskan membayar uang pendaftaran sebesar <i style="color:red">Rp. 25.000,-.</i></li>
                                 
                             </ol>
                             <br><br>
 
 
-                            <h3>Tahapan Lomba</h3>
+                            <h3>Olimpiade</h3>
                             <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
-                            <ol class="list-content">
-                                
-                                <li>Kegiatan Olimpiade dilakukan pada tanggal 26 Oktober 2018 yang dimulai pada pukul 09.30 WIB bertempat di <i style="color:red">Ruang Kaca Gelanggang Mahasiswa Universitas Syiah Kuala</i>. Olimpiade berlangsung selama 120 menit.</li>
-                                <li>Pemenang diambil dari 3 orang dengan skor tertinggi. Pemenang akan diumumkan pada tanggal -----.</li>
-                            </ol>
+                            <p class="deskripsi-content">
+                            Kegiatan Olimpiade dilakukan pada tanggal 26 Oktober 2018 yang dimulai pada pukul 09.30 WIB bertempat di Ruang <i style="color:red">Kaca Gelanggang Mahasiswa</i> Universitas Syiah Kuala. Olimpiade berlangsung selama 120 menit.
+                            </p>
                             <br><br>
 
                             
-                            <h3>Kriteria Penilaian</h3>
+                            <h3>Tempat Perlombaan</h3>
                             <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
-                            <ol class="list-content">
-                                <li>-------</li>
-                                <li>-------</li>
-                            </ol>
+                            <ul class="list-content">
+                                <li>Ruang Kaca Gelanggang Mahasiswa Universitas Syiah Kuala</li>
+                            </ul>
+                            <br><br>
+
+                            <h3>Pemenang</h3>
+                            <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
+                            <ul class="list-content">
+                                <li>Juara 1 mendapatkan uang tunai Rp. 500.000,- + Trophy + sertifikat</li>
+                                <li>Juara 2 mendapatkan uang tunai Rp. 300.000,- + Trophy + sertifikat</li>
+                                <li>Juara 3 mendapatkan uang tunai Rp. 200.000,- + Trophy + sertifikat</li>
+                                <li>Peserta mendapatakan sertifikat</li>
+                            </ul>
                             <br><br>
 
                             
                             <h3 style="color:red">Tanggal Penting</h3>
                             <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
                             <ul class="list-content ">
-                                <li class="icon-calendar">&emsp;-------</li>
-                                <li class="icon-calendar">&emsp;Olimpiade dilakukan pada tanggal 26 Oktober 2018</li>
-                                <li class="icon-calendar">&emsp;-------</li>
-                                <li class="icon-calendar">&emsp;-------</li>
-                                <li class="icon-calendar">&emsp;-------</li>
+                                <li class="icon-calendar">&emsp;Tangggal pendaftaran : 17 September - 24 Oktoberr 2018</li>
+                                <li class="icon-calendar">&emsp;Tanggal lomba : 26 Oktober 2018 (09.30 WIB)</li>
                             </ul>
                         </div>
                     </div>

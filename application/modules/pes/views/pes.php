@@ -113,9 +113,9 @@
                             <h3>Pendaftaran</h3>
                             <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
                             <ol class="list-content">
-                                <li>Pendaftaran dilakukan <i style="color:red">15 menit sebelum pertandingan dimulai.</i></li>
-                                <li>Pendaftaran bertempat di wilayah lomba PES <i style="color:red">(Halaman AAC stand PES INFEST)</i>.</li>
-                                <li>Setiap calon peserta yang mendaftarkan diri pada lomba PES membayar biaya pendaftaran sebesar <i style="color:red">Rp. --------</i></li>
+                                <li>Pendaftaran dilakukan dengan mengisi formulir yang dapat diambil dari panitia INFEST 2018 yang bertempat di Pos pendaftaran <i style="color:red">Sekretariat FMIPA</i> Universitas Syiah Kuala. </li>
+                                <li>Peserta pendaftar diharuskan membayar biaya pendaftaran  <i style="color:red">Rp. 25.000</i> / slotnya.</li>
+                                
                                 
                             </ol>
                             <br><br>
@@ -130,20 +130,31 @@
                             </ol>
                             <br><br>
 
-                            
-                            <h3>Kriteria Penilaian</h3>
+                             <h3>Tempat Perlombaan</h3>
                             <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
-                            <ol class="list-content">
-                                <li>-------</li>
-                                <li>-------</li>
-                            </ol>
+                            <ul class="list-content"> 
+                                <li>Panggung Utama INFEST 2018 yang bertempat di Halaman AAC Dayan Dawood Universitas Syiah Kuala</li>
+                            </ul>
+                            <br><br>
+
+
+                            <h3>Pemenang</h3>
+                            <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
+                            <ul class="list-content">
+                                <li>Juara 1 mendapatkan uang tunai Rp. 200.000,- + Sertifikat</li>
+                                <li>Juara 2 mendapatkan uang tunai Rp. 150.000,- + Sertifikat</li>
+                                <li>Juara 3 mendapatkan uang tunai Rp. 100.000,- + Sertifikat</li>
+                            </ul>
                             <br><br>
 
                             
                             <h3 style="color:red">Tanggal Penting</h3>
                             <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
                             <ul class="list-content ">
-                                <li class="icon-calendar">&emsp;Lomba PES akan dilaksanakan pada tanggal 27 Oktober 2018</li>
+                                <li class="icon-calendar">&emsp;Pendaftaran 20 September - 23 Oktober 2018</li>
+                                <li class="icon-calendar">&emsp;Technical meeting  24 Oktober 2018</li>
+                                <li class="icon-calendar">&emsp;Pelaksanaan perlombaan 25 Oktober - 27 Oktober 2018</li>
+                                <li class="icon-calendar">&emsp;Pembagian hadiah pemenang lomba dilakukan pada saat penutupan INFEST 2018</li>
                             </ul>
                         </div>
                     </div>

@@ -96,15 +96,15 @@
                             <h3>Deskripsi</h3>
                             <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
                             <p class="deskripsi-content">
-                            Coding Contest merupakan lomba dimana peserta menyelesaikan suatu soal atau permasalahan dengan 
+                            Programming Contest merupakan lomba dimana peserta menyelesaikan suatu soal atau permasalahan dengan 
                             program computer yang dibangun dengan Bahasa pemograman (C, C++, java). Peserta di tuntut untuk
                              menyelesaikan permasalahan yang diberikan sebanyak mungkin dengan durasi waktu yang di berikan. 
-                             Kriteria penilaian dalam lomba ini antara lain banyaknya permasalahan yang dapat diseslesaiakan 
+                             Kriteria penilaian dalam lomba ini antara lain banyaknya permasalahan yang dapat diselesaikan
                              dengan program, efisiensi program, kecepatan peserta dalam membangun program dan tata penulisan program.
                             </p>
                             
                             <p class="deskripsi-content">
-                            Peserta dari Coding Contest adalah tim yang mewakili universitas universitas di Indonesia terdiri dari <i style="color:red">3 mahasiswa/i</i> dan <i style="color:red">1 orang dosen pembimbing.</i>
+                            Peserta dari Programming Contest adalah tim yang mewakili universitas universitas di Indonesia terdiri dari <i style="color:red">3 mahasiswa/i</i>
                                 <br><br><br>
                             </p>
 
@@ -114,6 +114,7 @@
                                 <li>Pendaftaran tim peserta mahasiswa pada tanggal 18 – 7 Oktober 2018.</li>
                                 <li>Untuk pendaftaran dapat dilakukan <a href="<?php echo base_url() ?>index.php/registrasi">disini...</a></li>
                                 <li>Pada saat pendaftaran diharapkan peserta melampirkan hasil scan kartu mahasiswanya</li>
+                                <li>Biaya pendaftaran lomba <i style="color:red;list-style:none;">GRATIS</i></li>
                             </ol>
                             <br>
                             <br>
@@ -127,7 +128,7 @@
                                 <li>Jika terjadi permasalahan dengan koneksi peserta dan terlogout durasi
                                     waktu tetap berjalan namun peserta dapat log in kembali.</li>
                                 <li><i style="color:red">Kriteria penilaian</i> pada tahap ini adalah banyaknya permasalahan yang dapat diselesaikan dengan program, efisiensi program, dan tata penulisan program</li>
-                                <li>Tahap penyisihan akan dilaksanakan pada Rabu, 26 September 2018 jam
+                                <li>Tahap penyisihan akan dilaksanakan pada Senin, 15 Oktober 2018 jam
                                     12.00 – 24.00 WIB</li>
                             </ol>
                             <br><br>
@@ -153,6 +154,16 @@
                                 <li class="icon-calendar">&emsp;Pelaksanaan tahap penyisihan pada 15 oktober 2018</li>
                                 <li class="icon-calendar">&emsp;Pengumuman Hasil dari tahap penyisihan tanggal 20 oktober 2018</li>
                                 <li class="icon-calendar">&emsp;Pelaksanaan tahap final pada 26 Oktober 2018</li>
+                            </ul>
+							<br><br>
+							
+							
+							<h3 style="color:red">Contact Person</h3>
+							<img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
+                            <ul class="list-content ">
+								<li style="list-style:none">a/n Firman Maulana Adhari :</li>
+                                <li>085219725039 (WhatsApp)</li>
+								<li>085314393787</li>
                             </ul>
                         </div>
                     </div>
