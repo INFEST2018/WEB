@@ -112,7 +112,7 @@
                             <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
                             <ol class="list-content">
                                 <li>Pendaftaran tim peserta mahasiswa pada tanggal 18 – 7 Oktober 2018.</li>
-                                <li>Untuk pendaftaran dapat dilakukan <a href="<?php echo base_url() ?>index.php/registrasi">disini...</a></li>
+                                <li>Untuk pendaftaran dapat dilakukan <a href="<?php echo base_url() ?>registrasi">disini...</a></li>
                                 <li>Pada saat pendaftaran diharapkan peserta melampirkan hasil scan kartu mahasiswanya</li>
                                 <li>Biaya pendaftaran lomba <i style="color:red;list-style:none;">GRATIS</i></li>
                             </ol>
