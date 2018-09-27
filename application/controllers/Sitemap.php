@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Sitemap extends CI_Controller {
+class Sitemap extends MX_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -32,10 +32,10 @@ class Sitemap extends CI_Controller {
         $sitemap->add('http://mysite.tld/page2', '2012-08-26T23:45:00+02:00', '0.9', 'weekly');
     
         // add multiple items with a loop
-        foreach ($posts as $post)
+        /*foreach ($posts as $post)
         {
             $sitemap->add($post->slug, $post->date, $post->priority, $post->freq);
-        }
+        }*/
     
         // show your sitemap (options: 'xml', 'google-news', 'sitemapindex' 'html', 'txt', 'ror-rss', 'ror-rdf')
         $sitemap->render('xml');
