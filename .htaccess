@@ -1,5 +1,7 @@
 <IfModule mod_rewrite.c>
   RewriteEngine On
+  RewriteCond %{HTTPS} off
+  RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
   # !IMPORTANT! Set your RewriteBase here and don't forget trailing and leading
   #  slashes.
   # If your page resides at
