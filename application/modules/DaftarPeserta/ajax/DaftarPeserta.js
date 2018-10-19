@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $.ajax({
-         url:"<?php echo base_url(); ?>index.php/DaftarPeserta/showTeamMember",
+         url:"<?php echo base_url(); ?>DaftarPeserta/showTeamMember",
          success:function(data){
               $('#DataTeam').html(data);
          }
@@ -13,7 +13,7 @@ function expand(Elements){
 function deleteTeam(team){
   var x=team.id;
   $.ajax({
-       url:"<?php echo base_url(); ?>index.php/DaftarPeserta/delete/"+x,
+       url:"<?php echo base_url(); ?>DaftarPeserta/delete/"+x,
        success:function(data){
             $('#DataTeam').html(data);
        }

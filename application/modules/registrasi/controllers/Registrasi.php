@@ -96,7 +96,7 @@ class Registrasi extends CI_Controller {
 
 					}else{
 
-								$config['max_size']=2048;
+								$config['max_size']=20048;
 								$config['allowed_types']="png|jpg|jpeg|gif";
 								$config['remove_spaces']=TRUE;
 								$config['overwrite']=TRUE;

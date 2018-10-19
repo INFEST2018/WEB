@@ -2,7 +2,7 @@
             <!-- Header -->
             <header id="Header">
                 <!-- Header Top -  Info Area -->
-                
+
                 <!-- Header -  Logo and Menu area -->
                 <div id="Top_bar">
                     <div class="container">
@@ -10,7 +10,7 @@
                             <div class="top_bar_left clearfix">
                                 <!-- Logo-->
                                 <div class="logo">
-                                    <a id="logo" href="<?php echo base_url();?>index.php" title="INFEST"><img class="scale-with-grid" src="<?php echo base_url() ?>asset/theme/custom-image/logo-text.png" alt="INFEST" />
+                                    <a id="logo" href="<?php echo base_url();?>" title="INFEST"><img class="scale-with-grid" src="<?php echo base_url() ?>asset/theme/custom-image/logo-text.png" alt="INFEST" />
                                     </a>
                                 </div>
                                 <!-- Main menu-->
@@ -18,63 +18,64 @@
                                     <nav id="menu">
                                         <ul id="menu-main-menu" class="menu">
                                             <li >
-                                                <a href="<?php echo base_url();?>index.php"><span>Beranda</span></a>
+                                                <a href="<?php echo base_url();?>"><span>Beranda</span></a>
                                             </li>
                                              <li >
                                                 <a href="#"><span>Kategori Lomba</span></a>
                                                 <ul class="sub-menu">
                                                     <li>
-                                                        <a href="<?php echo base_url();?>index.php/pemograman"><span>Programming Contest</span></a>
+                                                        <a href="<?php echo base_url();?>pemograman"><span>Programming Contest</span></a>
                                                     </li>
-                                                    
+
                                                     <li>
-                                                        <a href="<?php echo base_url();?>index.php/komputer"><span>Olimpiade Komputer</span></a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="<?php echo base_url();?>index.php/rubik"><span>Kompetisi Rubik</span></a>
+                                                        <a href="<?php echo base_url();?>komputer"><span>Olimpiade Komputer</span></a>
                                                     </li>
                                                     <li>
-                                                        <a href="<?php echo base_url();?>index.php/mengetik"><span>Lomba Mengetik Cepat</span></a>
+                                                        <a href="<?php echo base_url();?>rubik"><span>Kompetisi Rubik</span></a>
                                                     </li>
                                                     <li>
-                                                        <a href="<?php echo base_url();?>index.php/mobilelegend"><span>Kompetisi Mobile Legend</span></a>
+                                                        <a href="<?php echo base_url();?>mengetik"><span>Lomba Mengetik Cepat</span></a>
                                                     </li>
                                                     <li>
-                                                        <a href="<?php echo base_url();?>index.php/pes"><span>Kompetisi Pes</span></a>
+                                                        <a href="<?php echo base_url();?>mobilelegend"><span>Kompetisi Mobile Legend</span></a>
                                                     </li>
                                                     <li>
-                                                        <a href="<?php echo base_url();?>index.php/akustik"><span>Akustik</span></a>
+                                                        <a href="<?php echo base_url();?>pes"><span>Kompetisi Pes</span></a>
                                                     </li>
+                                                    <li>
+                                                        <a href="<?php echo base_url();?>akustik"><span>Akustik</span></a>
+                                                    </li>
+
                                                 </ul>
                                             </li>
-                                            
+
                                             <li class="current-menu-item">
-                                                <a href="<?php echo base_url();?>index.php/seminar"><span>Seminar</span></a>
-                                    
+                                                <a href="<?php echo base_url();?>seminar"><span>Seminar</span></a>
+
                                             </li>
-                                            
+
                                             <li >
-                                                <a href="<?php echo base_url();?>index.php/pengumuman"><span>Pengumuman</span></a>
-                                    
+                                                <a href="<?php echo base_url();?>pengumuman"><span>Pengumuman</span></a>
+
                                             </li>
                                             <li >
-                                                <a href="<?php echo base_url();?>index.php/jadwal"><span>Jadwal</span></a>
-                                    
+                                                <a href="<?php echo base_url();?>jadwal"><span>Jadwal</span></a>
+
                                             </li>
-                                            
-                                            
-                                           
+
+
+
                                         </ul>
                                     </nav><a class="responsive-menu-toggle" href="#"><i class="icon-menu"></i></a>
                                 </div>
                                 <!-- Secondary menu area - only for certain pages -->
-                        
+
                                 <!-- Banner area - only for certain pages-->
-                                
+
                                 <!-- Header Searchform area-->
-                                
+
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -88,131 +89,82 @@
                     <div class="entry-content">
                         <div class="section full-width flv_sections_16">
                             <div class="section_wrapper clearfix">
-                                
-                                <div align="center" style="padding-top: 50px;">
-                                    <h1 style="font-size: 40px; line-height: 30px;">Pengumuman</h1>
-                                    <img style="padding: 10px 0 50px 0;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
+
+                                <div align="center" style="padding-top: 50px; padding-bottom:50px;">
+                                    <h1 style="font-size: 40px; line-height: 30px;">Seminar</h1>
+                                    <img style="padding: 10px 0 3px 0;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
+                                    <p style="font-size:30px; font-style:italic; color:#95959a;">28 Oktober 2018</p>
                                 </div>
-                            <div class="list-berita">
-                                <div class="column one column_blog">
-                                <div class="blog_wrapper isotope_wrapper">
-                                    <!-- Blog timeline element-->
-                                    <div class="posts_group lm_wrapper timeline">
-                                        <div class="post-46 post  format-standard has-post-thumbnail  category-uncategorized post-item isotope-item clearfix">
-                                            <div class="date_label">
-                                                Agustus 28, 2018
-                                            </div>
-                                            <div class="image_frame post-photo-wrapper scale-with-grid">
-                                                <div class="image_wrapper">
-                                                    <a href="article-3.html">
-                                                        <div class="mask"></div><img width="576" height="450" src="<?php echo base_url() ?>asset/theme/custom-image/labterpadu.jpg" class="scale-with-grid wp-post-image" alt="home_press_blog_3" />
-                                                    </a>
-                                                    
-                                                </div>
-                                            </div>
-                                            <div class="post-desc-wrapper">
-                                                <div class="post-desc">
-                                                    <div class="post-meta clearfix">
-                                                        <div class="author-date">
-                                                            <span class="author"><span>Published by </span><i class="icon-user"></i> <a href="#">admin</a>
-                                                            </span>
-                                                        </div>
-                                                        
-                                                    </div>
-                                                    <div class="post-title">
-                                                        <h2 class="entry-title"><a href="article-3.html">Vitae adipiscing turpis aenean</a></h2>
-                                                    </div>
-                                                    <div class="post-excerpt">
-                                                        Lorem ipsum dolor sit amet neque vitae mauris. Etiam malesuada ultricies. Nullam ut nunc odio eget volutpat a, rutrum ac, magna. Nulla facilisi. Nullam justo. Sed [&hellip;]
-                                                    </div>
-                                                    <div class="post-footer">
-                                                       
-                                                        <div class="post-links">
-                                                            <i class="icon-doc-text"></i><a href="article-3.html" class="post-more">Read more</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+
+                                <div class="deskripsi">
+                                  <div>
+                                    <center>
+                                      <img src="<?php echo base_url() ?>asset/theme/custom-image/seminar.png">
+                                    </center>
+                                  </div>
+                                    <br><br>
+
+                                  <h3>Seminar Nasional</h3>
+                                  <img style="padding: 0px 0 20px 0; height:3px; width:500px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
+                                  <br><br>
+                                    <p class="deskripsi-content">
+                                       Pada kegiatan INFEST akan diadakan seminar nasional dan menghadirkan pemateri-pemateri yang sangat luar biasa.
+                                       Materi yang akan dibahas adalah materi dibidang teknologi dan pengusaha. Banyak aspek teknologi terutama dibidang
+                                       internet yang dapat dijadikan sebagai tombak kemajuan dan kemunduran suatu masyarakat. Seminar ini akan berlangsung
+                                       dengan tema:</p>
+
+                                      <h2 align="center">“Become a Talented, Creative Young Technologist and Entrepreneur”</h2>
+
+                                    <p class="deskripsi-content">
+                                      Pada seminar ini juga akan dibahas materi tentang bagaimana menjadi pengusaha muda baik dibidang teknologi maupun
+                                      dibidang lainnya.</p>
+
+                                    <br><br>
+
+                                    <h3>Pendaftaran</h3>
+                                    <img style="padding: 0px 0 20px 0; height:3px; width:500px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
+                                    <ul class="list-content">
+                                        <li>Dibuka : 1-27 oktober 2018</li>
+                                        <li>Tempat Pendaftaran :
+                                          <ul style="padding-left:20px; list-style:none;">
+                                            <li>Depan Sekretariat BEM FMIPA Unsyiah</li>
+                                            <li>Lab Terpadu lt 2 Unsyiah</li>
+                                          </ul>
+                                        </li>
+                                        <li>Fee : <i style="color:red">Rp.45.000,-</i></li>
+                                        <li>Fasilitas : Snack, Sertifikat SKPI, DoorPrize</li>
+                                    </ul>
+                                    <br><br>
+
+                                    <h3>Pelaksanaan Acara: 28 Oktober 2018, 13.00 WIB</h3>
+
+                                      <br><br>
+                                    <h3>Pemateri Seminar</h3>
+                                    <img style="padding: 0px 0 20px 0; height:3px; width:500px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
+                                    <br><br>
+                                    <div class="speaker">
+                                        <div class="content-speaker">
+                                            <img class="img-speaker" src="<?php echo base_url() ?>asset/theme/custom-image/speaker/andika_wira.jpeg">
+                                            <p class="caption">Andika Wira (SkinnyFabs)</p>
                                         </div>
-                                        <div class="post-40 post  format-standard has-post-thumbnail  category-uncategorized post-item isotope-item clearfix">
-                                            <div class="date_label">
-                                                Agustus 28, 2018
-                                            </div>
-                                            <div class="image_frame post-photo-wrapper scale-with-grid">
-                                                <div class="image_wrapper">
-                                                    <a href="article-3.html">
-                                                        <div class="mask"></div><img width="576" height="450" src="<?php echo base_url() ?>asset/theme/custom-image/labterpadu.jpg" class="scale-with-grid wp-post-image" alt="home_press_blog_3" />
-                                                    </a>
-                                                    
-                                                </div>
-                                            </div>
-                                            <div class="post-desc-wrapper">
-                                                <div class="post-desc">
-                                                    <div class="post-meta clearfix">
-                                                        <div class="author-date">
-                                                            <span class="author"><span>Published by </span><i class="icon-user"></i> <a href="#">admin</a>
-                                                            </span>
-                                                        </div>
-                                                        
-                                                    </div>
-                                                    <div class="post-title">
-                                                        <h2 class="entry-title"><a href="article-3.html">Vitae adipiscing turpis aenean</a></h2>
-                                                    </div>
-                                                    <div class="post-excerpt">
-                                                        Lorem ipsum dolor sit amet neque vitae mauris. Etiam malesuada ultricies. Nullam ut nunc odio eget volutpat a, rutrum ac, magna. Nulla facilisi. Nullam justo. Sed [&hellip;]
-                                                    </div>
-                                                    <div class="post-footer">
-                                                       
-                                                        <div class="post-links">
-                                                            <i class="icon-doc-text"></i><a href="article-3.html" class="post-more">Read more</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="post-38 post  format-standard has-post-thumbnail  category-uncategorized post-item isotope-item clearfix">
-                                            <div class="date_label">
-                                                Agustus 28, 2018
-                                            </div>
-                                            <div class="image_frame post-photo-wrapper scale-with-grid">
-                                                <div class="image_wrapper">
-                                                    <a href="article-3.html">
-                                                        <div class="mask"></div><img width="576" height="450" src="<?php echo base_url() ?>asset/theme/custom-image/labterpadu.jpg" class="scale-with-grid wp-post-image" alt="home_press_blog_3" />
-                                                    </a>
-                                                    
-                                                </div>
-                                            </div>
-                                            <div class="post-desc-wrapper">
-                                                <div class="post-desc">
-                                                    <div class="post-meta clearfix">
-                                                        <div class="author-date">
-                                                            <span class="author"><span>Published by </span><i class="icon-user"></i> <a href="#">admin</a>
-                                                            </span>
-                                                        </div>
-                                                        
-                                                    </div>
-                                                    <div class="post-title">
-                                                        <h2 class="entry-title"><a href="article-3.html">Vitae adipiscing turpis aenean</a></h2>
-                                                    </div>
-                                                    <div class="post-excerpt">
-                                                        Lorem ipsum dolor sit amet neque vitae mauris. Etiam malesuada ultricies. Nullam ut nunc odio eget volutpat a, rutrum ac, magna. Nulla facilisi. Nullam justo. Sed [&hellip;]
-                                                    </div>
-                                                    <div class="post-footer">
-                                                       
-                                                        <div class="post-links">
-                                                            <i class="icon-doc-text"></i><a href="article-3.html" class="post-more">Read more</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                        <div class="content-speaker">
+                                            <img class="img-speaker" src="<?php echo base_url() ?>asset/theme/custom-image/speaker/fachrul_razi.jpeg">
+                                            <p class="caption">H. Fachrul Razi M.I.P</p>
                                         </div>
                                     </div>
+                                    <div style="clear:both">
+                                    <h3>Contact Person</h3>
+                                    <img style="padding: 0px 0 20px 0; height:3px; width:500px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
+                                    <ul class="list-content">
+                                        <li>085358205983 (Asmaul Husna)</li>
+                                        <li>085230166922 (Melani Mawaddah)</li>
+                                    </ul>
+                                    <br><br>
+                                  </div>
                                 </div>
-                            </div>
-                            </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+  </div>

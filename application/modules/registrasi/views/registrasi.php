@@ -11,7 +11,7 @@
 					<div class="top_bar_left clearfix">
 						<!-- Logo-->
 						<div class="logo">
-							<a id="logo" href="<?php echo base_url();?>index.php" title="INFEST"><img class="scale-with-grid" src="<?php echo base_url() ?>asset/theme/custom-image/logo-text.png"
+							<a id="logo" href="<?php echo base_url();?>" title="INFEST"><img class="scale-with-grid" src="<?php echo base_url() ?>asset/theme/custom-image/logo-text.png"
 								 alt="INFEST" />
 							</a>
 						</div>
@@ -20,48 +20,48 @@
 							<nav id="menu">
 								<ul id="menu-main-menu" class="menu">
 									<li>
-										<a href="<?php echo base_url();?>index.php"><span>Beranda</span></a>
+										<a href="<?php echo base_url();?>"><span>Beranda</span></a>
 									</li>
 									<li class="current-menu-item">
 										<a href="#"><span>Kategori Lomba</span></a>
 										<ul class="sub-menu">
 											<li>
-												<a href="<?php echo base_url();?>index.php/pemograman"><span>Programming Contest</span></a>
+												<a href="<?php echo base_url();?>pemograman"><span>Programming Contest</span></a>
 											</li>
 
 											<li>
-												<a href="<?php echo base_url();?>index.php/komputer"><span>Olimpiade Komputer</span></a>
+												<a href="<?php echo base_url();?>komputer"><span>Olimpiade Komputer</span></a>
 											</li>
 											<li>
-												<a href="<?php echo base_url();?>index.php/rubik"><span>Kompetisi Rubik</span></a>
+												<a href="<?php echo base_url();?>rubik"><span>Kompetisi Rubik</span></a>
 											</li>
 											<li>
-												<a href="<?php echo base_url();?>index.php/mengetik"><span>Lomba Mengetik Cepat</span></a>
+												<a href="<?php echo base_url();?>mengetik"><span>Lomba Mengetik Cepat</span></a>
 											</li>
 											<li>
-												<a href="<?php echo base_url();?>index.php/mobilelegend"><span>Kompetisi Mobile Legend</span></a>
+												<a href="<?php echo base_url();?>mobilelegend"><span>Kompetisi Mobile Legend</span></a>
 											</li>
 											<li>
-												<a href="<?php echo base_url();?>index.php/pes"><span>Kompetisi Pes</span></a>
+												<a href="<?php echo base_url();?>pes"><span>Kompetisi Pes</span></a>
 											</li>
 											<li>
-												<a href="<?php echo base_url();?>index.php/akustik"><span>Akustik</span></a>
+                                                <a href="<?php echo base_url();?>akustik"><span>Akustik</span></a>
                                             </li>
 
 										</ul>
 									</li>
 
 									<li>
-										<a href="<?php echo base_url();?>index.php/seminar"><span>Seminar</span></a>
+										<a href="<?php echo base_url();?>seminar"><span>Seminar</span></a>
 
 									</li>
 
 									<li>
-										<a href="<?php echo base_url();?>index.php/pengumuman"><span>Pengumuman</span></a>
+										<a href="<?php echo base_url();?>pengumuman"><span>Pengumuman</span></a>
 
 									</li>
 									<li>
-										<a href="<?php echo base_url();?>index.php/jadwal"><span>Jadwal</span></a>
+										<a href="<?php echo base_url();?>jadwal"><span>Jadwal</span></a>
 
 									</li>
 
@@ -92,128 +92,17 @@
 							<h1 style="font-size: 40px; line-height: 30px;">Pendaftaran Programming Contest</h1>
 							<img style="padding: 10px 0 50px 0; width:700px;;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
 						</div>
+						<br>
+						<br>
+						<br>
 						<div align="center" style="font-size:12pt;">
-							<form name="frm" action="<?php echo base_url(). 'index.php/registrasi/tambah_aksi'; ?>" method="post" enctype="multipart/form-data">
-								<h3 class="form-judul">Form Tim</h3>
-								<img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
-								<div class="form-group">
-									<label for="nama_tim">Nama Tim:</label>
-									<span id="team_result"></span>
-									<input type="text" class="form-control" id="nama_tim" placeholder="Masukan Nama Tim" name="nama_tim">
-								</div>
-								<div class="form-group">
-									<label for="email">Email:</label>
-									<span id="email_result"></span>
-									<input type="email" class="form-control" id="email" placeholder="Masukan Email" name="email">
-								</div>
-								<div class="form-group">
-									<label for="pswd">Password:</label>
-									<input type="password" class="form-control" id="pswd" placeholder="password" onkeyup="check();" name="pswd">
-								</div>
-								<div class="form-group">
-									<label for="confirm_pswd">Confirm Password:</label>
-									<span style="font-size:10pt;" id='message'></span>
-									<input type="password" class="form-control" id="confirm_pswd" placeholder="password" onkeyup="check();" name="confirm_pswd">
-
-								</div>
-								<div class="form-group">
-									<label for="universitas">Universitas:</label>
-									<input type="text" class="form-control" id="universitas" name="universitas">
-								</div>
-
-
-								<br><br>
-								<h3 class="form-judul">Form Anggota Tim</h3>
-								<img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
-								<br>
-								<h4>Anggota 1</h4>
-								<img style="padding: 0px 0 20px 0; height:3px; width:200px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
-								<div class="form-group">
-									<label for="anggota1">Nama:</label>
-									<input type="text" class="form-control" id="anggota1" placeholder="Nama" name="anggota1">
-								</div>
-								<div class="form-group">
-									<label for="nim1">NIM:</label>
-									<input type="text" class="form-control" id="nim1" placeholder="Nomor Induk Mahasiswa" name="nim1">
-								</div>
-								<div class="form-group">
-									<label for="fak_jur1">Fakultas/Jurusan:</label>
-									<input type="text" class="form-control" id="fak_jur1" placeholder="Fakultas/Jurusan" name="fak_jur1">
-								</div>
-								<div class="form-group">
-									<label for="no_hp1">No Hp:</label>
-									<input type="text" class="form-control" id="no_hp1" placeholder="ex: 082360011441" name="no_hp1">
-								</div>
-								<div class="form-group">
-									<label for="wa1">Whatsapp:</label>
-									<input type="text" class="form-control" id="wa1" placeholder="Whatsapp" name="wa1">
-								</div>
-								<div class="form-group">
-									<label for="ktm1">Scan Ktm</label>
-									<input type="file" class="form-control" id="ktm1" name="ktm1">
-								</div>
-
-								<br><br>
-								<h4>Anggota 2</h4>
-								<img style="padding: 0px 0 20px 0; height:3px; width:200px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
-								<div class="form-group">
-									<label for="anggota2">Nama:</label>
-									<input type="text" class="form-control" id="anggota2" placeholder="Nama" name="anggota2">
-								</div>
-								<div class="form-group">
-									<label for="nim2">NIM:</label>
-									<input type="text" class="form-control" id="nim2" placeholder="Nomor Induk Mahasiswa" name="nim2">
-								</div>
-								<div class="form-group">
-									<label for="fak_jur2">Fakultas/Jurusan:</label>
-									<input type="text" class="form-control" id="fak_jur2" placeholder="Fakultas/Jurusan" name="fak_jur2">
-								</div>
-								<div class="form-group">
-									<label for="no_hp2">No Hp:</label>
-									<input type="text" class="form-control" id="no_hp2" placeholder="ex: 082360011441" name="no_hp2">
-								</div>
-								<div class="form-group">
-									<label for="wa2">Whatsapp:</label>
-									<input type="text" class="form-control" id="wa2" placeholder="Whatsapp" name="wa2">
-								</div>
-								<div class="form-group">
-									<label for="ktm2">Scan Ktm</label>
-									<input type="file" class="form-control" id="ktm2" name="ktm2">
-								</div>
-
-								<br><br>
-								<h4>Anggota 3</h4>
-								<img style="padding: 0px 0 20px 0; height:3px; width:200px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
-								<div class="form-group">
-									<label for="anggota3">Nama:</label>
-									<input type="text" class="form-control" id="anggota3" placeholder="Nama" name="anggota3">
-								</div>
-								<div class="form-group">
-									<label for="nim3">NIM:</label>
-									<input type="text" class="form-control" id="nim3" placeholder="Nomor Induk Mahasiswa" name="nim3">
-								</div>
-								<div class="form-group">
-									<label for="fak_jur3">Fakultas/Jurusan:</label>
-									<input type="text" class="form-control" id="fak_jur3" placeholder="Fakultas/Jurusan" name="fak_jur3">
-								</div>
-								<div class="form-group">
-									<label for="no_hp3">No Hp:</label>
-									<input type="text" class="form-control" id="no_hp3" placeholder="ex: 082360011441" name="no_hp3">
-								</div>
-								<div class="form-group">
-									<label for="wa3">Whatsapp:</label>
-									<input type="text" class="form-control" id="wa3" placeholder="Whatsapp" name="wa3">
-								</div>
-								<div class="form-group">
-									<label for="ktm3">Scan Ktm</label>
-									<input type="file" class="form-control" id="ktm3" name="ktm3">
-								</div>
-
-								<br><br><br>
-
-								<button type="submit" onclick="return IsEmpty();" class="btn btn-primary">Submit</button>
-							</form>
+							<h3 style="color: red">Masa pendaftaran telah berakhir.</h3>
 						</div>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
 					</div>
 				</div>
 			</div>
@@ -318,7 +207,7 @@
 			return true;
 		}
 
-		
+
 	}
 </script>
 <script>

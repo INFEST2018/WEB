@@ -114,7 +114,7 @@
                             <div class="top_bar_left clearfix">
                                 <!-- Logo-->
                                 <div class="logo">
-                                    <a id="logo" href="<?php echo base_url();?>index.php" title="INFEST"><img class="scale-with-grid" src="<?php echo base_url() ?>asset/theme/custom-image/logo-text.png" alt="INFEST" />
+                                    <a id="logo" href="<?php echo base_url();?>" title="INFEST"><img class="scale-with-grid" src="<?php echo base_url() ?>asset/theme/custom-image/logo-text.png" alt="INFEST" />
                                     </a>
                                 </div>
                                 <!-- Main menu-->
@@ -122,47 +122,47 @@
                                     <nav id="menu">
                                         <ul id="menu-main-menu" class="menu">
                                             <li class="current-menu-item">
-                                                <a href="<?php echo base_url();?>index.php"><span>Beranda</span></a>
+                                                <a href="<?php echo base_url();?>"><span>Beranda</span></a>
                                             </li>
                                             <li>
                                                 <a href="#"><span>Kategori Lomba</span></a>
                                                 <ul class="sub-menu">
                                                     <li>
-                                                        <a href="<?php echo base_url();?>index.php/pemograman"><span>Programming Contest</span></a>
+                                                        <a href="<?php echo base_url();?>pemograman"><span>Programming Contest</span></a>
                                                     </li>
                                                     <li>
-                                                        <a href="<?php echo base_url();?>index.php/komputer"><span>Olimpiade Komputer</span></a>
+                                                        <a href="<?php echo base_url();?>komputer"><span>Olimpiade Komputer</span></a>
                                                     </li>
                                                     <li>
-                                                        <a href="<?php echo base_url();?>index.php/rubik"><span>Kompetisi Rubik</span></a>
+                                                        <a href="<?php echo base_url();?>rubik"><span>Kompetisi Rubik</span></a>
                                                     </li>
                                                     <li>
-                                                        <a href="<?php echo base_url();?>index.php/mengetik"><span>Lomba Mengetik Cepat</span></a>
+                                                        <a href="<?php echo base_url();?>mengetik"><span>Lomba Mengetik Cepat</span></a>
                                                     </li>
                                                     <li>
-                                                        <a href="<?php echo base_url();?>index.php/mobilelegend"><span>Kompetisi Mobile Legend</span></a>
+                                                        <a href="<?php echo base_url();?>mobilelegend"><span>Kompetisi Mobile Legend</span></a>
                                                     </li>
                                                     <li>
-                                                        <a href="<?php echo base_url();?>index.php/pes"><span>Kompetisi Pes</span></a>
+                                                        <a href="<?php echo base_url();?>pes"><span>Kompetisi Pes</span></a>
                                                     </li>
                                                     <li>
-                                                        <a href="<?php echo base_url();?>index.php/akustik"><span>Akustik</span></a>
+                                                        <a href="<?php echo base_url();?>akustik"><span>Akustik</span></a>
                                                     </li>
                                                     
                                                 </ul>
                                             </li>
 
                                             <li>
-                                                <a href="<?php echo base_url();?>index.php/seminar"><span>Seminar</span></a>
+                                                <a href="<?php echo base_url();?>seminar"><span>Seminar</span></a>
 
                                             </li>
 
                                             <li>
-                                                <a href="<?php echo base_url();?>index.php/pengumuman"><span>Pengumuman</span></a>
+                                                <a href="<?php echo base_url();?>pengumuman"><span>Pengumuman</span></a>
 
                                             </li>
                                             <li>
-                                                <a href="<?php echo base_url();?>index.php/jadwal"><span>Jadwal</span></a>
+                                                <a href="<?php echo base_url();?>jadwal"><span>Jadwal</span></a>
 
                                             </li>
 
@@ -207,8 +207,8 @@
                                     <div class="column one-third column_icon_box">
                                         <!-- Animated area -->
                                         <div class="animate" data-anim-type="fadeInLeftLarge">
-                                            <div class="icon_box icon_position_top has_border">
-                                                <a class="scroll" href="<?php echo base_url();?>index.php/pemograman">
+                                            <div class="icon_box icon_position_top no_border">
+                                                <a class="scroll" href="<?php echo base_url();?>pemograman">
                                                     <div align=center>
 
                                                         <div class="back-kategori">
@@ -234,7 +234,7 @@
                                         <!-- Animated area -->
                                         <div class="animate" data-anim-type="zoomIn">
                                             <div class="icon_box icon_position_top no_border">
-                                                <a href="<?php echo base_url();?>index.php/komputer">
+                                                <a href="<?php echo base_url();?>komputer">
                                                     <div align=center>
 
                                                         <div class="back-kategori">
@@ -259,8 +259,8 @@
                                     <div class="column one-third column_icon_box">
                                         <!-- Animated area -->
                                         <div class="animate" data-anim-type="fadeInRightLarge">
-                                            <div class="icon_box icon_position_top has_border">
-                                                <a href="<?php echo base_url();?>index.php/rubik">
+                                            <div class="icon_box icon_position_top no_border">
+                                                <a href="<?php echo base_url();?>rubik">
                                                     <div align=center>
 
                                                         <div class="back-kategori">
@@ -285,8 +285,8 @@
                                     <div class="column one-third column_icon_box">
                                         <!-- Animated area -->
                                         <div class="animate" data-anim-type="fadeInLeftLarge">
-                                            <div class="icon_box icon_position_top has_border">
-                                                <a href="<?php echo base_url();?>index.php/mengetik">
+                                            <div class="icon_box icon_position_top no_border">
+                                                <a href="<?php echo base_url();?>mengetik">
                                                     <div align=center>
 
                                                         <div class="back-kategori">
@@ -312,7 +312,7 @@
                                         <!-- Animated area -->
                                         <div class="animate" data-anim-type="zoomIn">
                                             <div class="icon_box icon_position_top no_border">
-                                                <a href="<?php echo base_url();?>index.php/mobilelegend">
+                                                <a href="<?php echo base_url();?>mobilelegend">
                                                     <div align=center>
 
                                                         <div class="back-kategori">
@@ -337,8 +337,8 @@
                                     <div class="column one-third column_icon_box">
                                         <!-- Animated area -->
                                         <div class="animate" data-anim-type="fadeInRightLarge">
-                                            <div class="icon_box icon_position_top has_border">
-                                                <a href="<?php echo base_url();?>index.php/pes">
+                                            <div class="icon_box icon_position_top no_border">
+                                                <a href="<?php echo base_url();?>pes">
                                                     <div align=center>
 
                                                         <div class="back-kategori">
@@ -360,19 +360,19 @@
                                     </div>
 
                                     <!-- One Third (3/3) Column -->
-                              <!--      <div class="column one-third column_icon_box">
+                                   <div class="column one-third column_icon_box">
                                       
                                         <div class="animate" data-anim-type="zoomIn">
-                                            <div class="icon_box icon_position_top has_border">
-                                                <a href="<?php echo base_url();?>index.php/akustik">
+                                            <div class="icon_box icon_position_top no_border">
+                                                <a href="<?php echo base_url();?>akustik">
                                                     <div align=center>
 
                                                         <div class="back-kategori">
-                                                            <img style="width:150px; height:auto;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/akustik.png">
+                                                            <img style="width:150px; height:auto;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/Akustik.png">
                                                         </div>
 
                                                         <div class="kategori">
-                                                            <img src="<?php echo base_url() ?>asset/theme/custom-image/icon/akustik-hover.png">
+                                                            <img src="<?php echo base_url() ?>asset/theme/custom-image/icon/Akustik-hover.png">
                                                         </div>
 
                                                     </div>
@@ -383,7 +383,7 @@
                                                 </a>
                                             </div>
                                         </div>
-                                    </div> -->
+                                    </div>
 
                                 </div>
 
@@ -472,7 +472,7 @@
             </div>
         </div>
 
-        <div class="sponsor">
+        <div style=" margin: 10px 30px;" class="sponsor">
             <div align="center" style="padding:50px;">
                 <h2>DISPONSORI <br>oleh :</h2>
                 <img style="padding: 10px 0 0 0;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
@@ -481,7 +481,7 @@
             <div class="content-sponsor">
             <ul  class="line-sponsor">
                 <li>
-                    <img  class="img-sponsor"src="<?php echo base_url() ?>asset/theme/custom-image/sponsor/Artboard_1.png">
+                    <img class="img-sponsor"src="<?php echo base_url() ?>asset/theme/custom-image/sponsor/Artboard_1.png">
                 </li>
                 <li>
                     <img class="img-sponsor"src="<?php echo base_url() ?>asset/theme/custom-image/sponsor/Artboard_2.png">
@@ -523,7 +523,7 @@
             <div class="widgets_wrapper">
                 <div class="container">
                     <div class="one-two column" style="padding:30px 120px 0px 0px;">
-                        <img class="footer-image" src="<?php echo base_url() ?>asset/theme/custom-image/text-hitam.png">
+                        <img class="footer-image" src="<?php echo base_url() ?>asset/theme/custom-image/logo-dark.png">
                     </div>
 
 

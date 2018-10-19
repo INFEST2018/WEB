@@ -10,7 +10,7 @@
                     <div class="top_bar_left clearfix">
                         <!-- Logo-->
                         <div class="logo">
-                            <a id="logo" href="<?php echo base_url();?>index.php" title="INFEST"><img class="scale-with-grid" src="<?php echo base_url() ?>asset/theme/custom-image/logo-text.png" alt="INFEST" />
+                            <a id="logo" href="<?php echo base_url();?>" title="INFEST"><img class="scale-with-grid" src="<?php echo base_url() ?>asset/theme/custom-image/logo-text.png" alt="INFEST" />
                             </a>
                         </div>
                         <!-- Main menu-->
@@ -18,47 +18,48 @@
                             <nav id="menu">
                                 <ul id="menu-main-menu" class="menu">
                                     <li>
-                                        <a href="<?php echo base_url();?>index.php"><span>Beranda</span></a>
+                                        <a href="<?php echo base_url();?>"><span>Beranda</span></a>
                                     </li>
                                     <li class="current-menu-item">
                                         <a href="#"><span>Kategori Lomba</span></a>
                                         <ul class="sub-menu">
                                             <li>
-                                                <a href="<?php echo base_url();?>index.php/pemograman"><span>Programming Contest</span></a>
+                                                <a href="<?php echo base_url();?>pemograman"><span>Programming Contest</span></a>
                                             </li>
                                             
                                             <li>
-                                                <a href="<?php echo base_url();?>index.php/komputer"><span>Olimpiade Komputer</span></a>
+                                                <a href="<?php echo base_url();?>komputer"><span>Olimpiade Komputer</span></a>
                                             </li>
                                             <li>
-                                                <a href="<?php echo base_url();?>index.php/rubik"><span>Kompetisi Rubik</span></a>
+                                                <a href="<?php echo base_url();?>rubik"><span>Kompetisi Rubik</span></a>
                                             </li>
                                             <li>
-                                                <a href="<?php echo base_url();?>index.php/mengetik"><span>Lomba Mengetik Cepat</span></a>
+                                                <a href="<?php echo base_url();?>mengetik"><span>Lomba Mengetik Cepat</span></a>
                                             </li>
                                             <li>
-                                                <a href="<?php echo base_url();?>index.php/mobilelegend"><span>Kompetisi Mobile Legend</span></a>
+                                                <a href="<?php echo base_url();?>mobilelegend"><span>Kompetisi Mobile Legend</span></a>
                                             </li>
                                             <li>
-                                                <a href="<?php echo base_url();?>index.php/pes"><span>Kompetisi Pes</span></a>
+                                                <a href="<?php echo base_url();?>pes"><span>Kompetisi Pes</span></a>
                                             </li>
                                             <li>
-                                                <a href="<?php echo base_url();?>index.php/akustik"><span>Akustik</span></a>
-                                             </li>
+                                                <a href="<?php echo base_url();?>akustik"><span>Akustik</span></a>
+                                            </li>
+                                            
                                         </ul>
                                     </li>
 
                                     <li>
-                                        <a href="<?php echo base_url();?>index.php/seminar"><span>Seminar</span></a>
+                                        <a href="<?php echo base_url();?>seminar"><span>Seminar</span></a>
 
                                     </li>
 
                                     <li>
-                                        <a href="<?php echo base_url();?>index.php/pengumuman"><span>Pengumuman</span></a>
+                                        <a href="<?php echo base_url();?>pengumuman"><span>Pengumuman</span></a>
 
                                     </li>
                                     <li>
-                                        <a href="<?php echo base_url();?>index.php/jadwal"><span>Jadwal</span></a>
+                                        <a href="<?php echo base_url();?>jadwal"><span>Jadwal</span></a>
 
                                     </li>
 
@@ -105,6 +106,7 @@
                                 Peserta  diharuskan  menjawab  soal – soal yang  telah  disajikan  secara  tertulis  dan 
                                 dalam  jangka  waktu  yang  telah ditentukan.  Pemenang  ditentukan  dari 3 peserta dengan 
                                 skor tertinggi.
+                                Olimpiade akan menggunakan bahasa pemogramanan <i style="color: red">Python</i>
 
                             </p>
                             

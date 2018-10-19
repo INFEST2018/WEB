@@ -1,13 +1,13 @@
         <footer id="Footer" class="clearfix" style="background-color:#f0eeee; color:black;">
             <!-- Footer - First area -->
-            
+
             <div class="widgets_wrapper">
                 <div class="container">
                     <div class="one-two column" style="padding:30px 120px 0px 0px;">
-                        <img class="footer-image" src="<?php echo base_url() ?>asset/theme/custom-image/text-hitam.png">
+                        <img class="footer-image" src="<?php echo base_url() ?>asset/theme/custom-image/logo-dark.png">
                     </div>
-                    
-                    
+
+
                     <div class="one-two column">
                         <!-- Text Area -->
                         <aside id="text-8" class="widget widget_text">
@@ -54,19 +54,19 @@
                             &copy; 2018 - INFEST 2018 - FMIPA INFORMATIKA UNIVERSITAS SYIAH KUALA
                         </div>
                         <!--Social info area-->
-                        
+
                     </div>
                 </div>
             </div>
-        </footer> 
+        </footer>
 
 </div>
 
     <!-- Popup contact form -->
-    
+
 
     <!-- JS -->
-   
+
     <script src="<?php echo base_url() ?>asset/theme/js/jquery-2.1.4.min.js"></script>
 
     <script src="<?php echo base_url() ?>asset/theme/js/mfn.menu.js"></script>
@@ -193,7 +193,7 @@
             }
         });
     </script>
-    
+
 </body>
 
 </html>

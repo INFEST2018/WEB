@@ -102,7 +102,7 @@
 }
 
 .footer-image {
-    height: 150px;
+    height: 230px;
     width: auto;
 }
 
@@ -200,10 +200,24 @@ textarea {
     width: 600px;
 }
 
+
 /*sponsor*/
 
 .sponsor {
-    margin: 10px 30px;  
+    margin: 10px 30px;
+}
+
+
+.content-speaker {
+ width:250px;
+ text-align:center;
+ display:block;
+ background-color: #f0eeed;
+ border: 5px solid #1a1923;
+ border-radius: 10px;
+ margin-right: 10px;
+ margin-bottom: 50px;
+ float:left;
 }
 
 .content-sponsor {
@@ -212,12 +226,24 @@ textarea {
    text-align: center;
 }
 
-.line-sponsor {
+.line-sponsor ,.line-speaker{
     list-style: none;
 }
-.line-sponsor li {
+.line-sponsor li, .line-speaker li{
     display: inline;
 }
 .img-sponsor {
-    width: 250px; 
+    width: 250px;
+}
+
+.img-speaker {
+  width: 300px;
+  border-radius: 50%;
+}
+
+.caption{
+  font-size: 12pt;
+  font-weight: bold;
+  font-style: italic;
+  font-family: times new romans;
 }

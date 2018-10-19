@@ -34,13 +34,14 @@
 
     <!-- Revolution Slider -->
     <link rel="stylesheet" href="<?php echo base_url() ?>asset/theme/plugins/rs-plugin/css/settings.css">
-
-
+    
+   
 
 </head>
-
+    
 <body class="template-slider color-one layout-full-width header-below subheader-transparent sticky-header sticky-white subheader-title-left">
 <!-- Hidden Top Area -->
 
 <!-- Main Theme Wrapper -->
 <div id="Wrapper">
+    

@@ -1,0 +1,10 @@
+[09-Sep-2018 08:26:23 UTC] Body: {"message":"The property, 'messages', in the request body is invalid (line: 1, column: 61)"}
+[09-Sep-2018 08:26:50 UTC] Body: {"message":"The property, 'messages', in the request body is invalid (line: 1, column: 61)"}
+[09-Sep-2018 08:26:51 UTC] Body: {"message":"The property, 'messages', in the request body is invalid (line: 1, column: 61)"}
+[09-Sep-2018 08:26:55 UTC] Body: {"message":"The property, 'messages[0]', in the request body is invalid (line: 1, column: 62)"}
+[09-Sep-2018 08:33:12 UTC] Body: {}
+[09-Sep-2018 08:38:09 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/infestun/public_html/shania/shwebhook.php on line 155
+[09-Sep-2018 08:38:20 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/infestun/public_html/shania/shwebhook.php on line 155
+[09-Sep-2018 08:41:52 UTC] Body: {}
+[09-Sep-2018 08:41:58 UTC] Body: {"message":"The property, 'messages[0].text', in the request body is invalid (line: 1, column: 84)"}
+[09-Sep-2018 08:43:47 UTC] Body: {}

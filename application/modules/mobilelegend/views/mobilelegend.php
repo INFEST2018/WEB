@@ -10,7 +10,7 @@
                     <div class="top_bar_left clearfix">
                         <!-- Logo-->
                         <div class="logo">
-                            <a id="logo" href="<?php echo base_url();?>index.php" title="INFEST"><img class="scale-with-grid" src="<?php echo base_url() ?>asset/theme/custom-image/logo-text.png" alt="INFEST" />
+                            <a id="logo" href="<?php echo base_url();?>" title="INFEST"><img class="scale-with-grid" src="<?php echo base_url() ?>asset/theme/custom-image/logo-text.png" alt="INFEST" />
                             </a>
                         </div>
                         <!-- Main menu-->
@@ -18,47 +18,48 @@
                             <nav id="menu">
                                 <ul id="menu-main-menu" class="menu">
                                     <li>
-                                        <a href="<?php echo base_url();?>index.php"><span>Beranda</span></a>
+                                        <a href="<?php echo base_url();?>"><span>Beranda</span></a>
                                     </li>
                                     <li class="current-menu-item">
                                         <a href="#"><span>Kategori Lomba</span></a>
                                         <ul class="sub-menu">
                                             <li>
-                                                <a href="<?php echo base_url();?>index.php/pemograman"><span>Programming Contest</span></a>
+                                                <a href="<?php echo base_url();?>pemograman"><span>Programming Contest</span></a>
                                             </li>
                                            
                                             <li>
-                                                <a href="<?php echo base_url();?>index.php/komputer"><span>Olimpiade Komputer</span></a>
+                                                <a href="<?php echo base_url();?>komputer"><span>Olimpiade Komputer</span></a>
                                             </li>
                                             <li>
-                                                <a href="<?php echo base_url();?>index.php/rubik"><span>Kompetisi Rubik</span></a>
+                                                <a href="<?php echo base_url();?>rubik"><span>Kompetisi Rubik</span></a>
                                             </li>
                                             <li>
-                                                <a href="<?php echo base_url();?>index.php/mengetik"><span>Lomba Mengetik Cepat</span></a>
+                                                <a href="<?php echo base_url();?>mengetik"><span>Lomba Mengetik Cepat</span></a>
                                             </li>
                                             <li>
-                                                <a href="<?php echo base_url();?>index.php/mobilelegend"><span>Kompetisi Mobile Legend</span></a>
+                                                <a href="<?php echo base_url();?>mobilelegend"><span>Kompetisi Mobile Legend</span></a>
                                             </li>
                                             <li>
-                                                <a href="<?php echo base_url();?>index.php/pes"><span>Kompetisi Pes</span></a>
+                                                <a href="<?php echo base_url();?>pes"><span>Kompetisi Pes</span></a>
                                             </li>
                                             <li>
-                                                <a href="<?php echo base_url();?>index.php/akustik"><span>Akustik</span></a>
+                                                <a href="<?php echo base_url();?>akustik"><span>Akustik</span></a>
                                             </li>
+                                            
                                         </ul>
                                     </li>
 
                                     <li>
-                                        <a href="<?php echo base_url();?>index.php/seminar"><span>Seminar</span></a>
+                                        <a href="<?php echo base_url();?>seminar"><span>Seminar</span></a>
 
                                     </li>
 
                                     <li>
-                                        <a href="<?php echo base_url();?>index.php/pengumuman"><span>Pengumuman</span></a>
+                                        <a href="<?php echo base_url();?>pengumuman"><span>Pengumuman</span></a>
 
                                     </li>
                                     <li>
-                                        <a href="<?php echo base_url();?>index.php/jadwal"><span>Jadwal</span></a>
+                                        <a href="<?php echo base_url();?>jadwal"><span>Jadwal</span></a>
 
                                     </li>
 
@@ -117,7 +118,7 @@
                             <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
                             <ol class="list-content">
                                 <li>Pendaftaran dilakukan oleh perwakilan tim dengan mengisi formulir yang dapat diambil dari panitia INFEST 2018 yang bertempat di Pos pendaftaran <i style="color:red">Sekretariat FMIPA</i> Universitas Syiah Kuala.</li>
-                                <li>Setiap calon peserta yang mendaftarkan diri pada kompetisi Mobile Legends diharuskan membayar biaya pendaftaran sebesar <i style="color:red">Rp. 150.000,-</i></li>
+                                <li>Setiap calon peserta yang mendaftarkan diri pada kompetisi Mobile Legends diharuskan membayar biaya pendaftaran sebesar <i style="color:red">Rp. 100.000,-</i></li>
                                 
                             </ol>
                             <br><br>
