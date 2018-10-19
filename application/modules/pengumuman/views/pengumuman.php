@@ -120,11 +120,17 @@
                                 </div>
 
                                 <div class="deskripsi" >
+                                    <button onclick="location.href='https://coding.infestunsyiah.com/'" class="accordion"><b>Klik disini untuk memulai tahap penyisihan Programming Contest</b></button>
+                                    <button class="accordion"><b>Tahap penyisihan Programming Contest akan berlangsung pada 17 Oktober 2018 pukul 15.00 - 23.55 wib</b></button>
+                                    <button onclick="location.href='https://coding.infestunsyiah.com/'" class="accordion"><b>Klik disini untuk memulai demo Programming Contest</b></button>
+                                    <button class="accordion"><b>Demo online Programming Contest akan dilaksanakan pada 12-13 Oktober 2018 pukul 15.00 - 23.55 wib</b></button>
+                                    <div class="panel">
+                                    </div>
                                      <button class="accordion"><b>Tim yang Akan Berpartisipasi pada Tahap Penyisihan Programming Contest</b></button>
                                     <div class="panel">
-                                        <p>Berikut adalah daftar 93 (sembilan puluh tiga) tim yang akan berpartisipasi pada tahap penyisihan Programming Contest INFEST 2018. <a href="https://drive.google.com/open?id=1Ovzz1prxWPkTCeKxcOy_-NCgk35Mz2nH">Klik disini untuk melihat.</a></p>
+                                        <p>Berikut adalah daftar 93 (sembilan puluh tiga) tim yang akan berpartisipasi pada tahap penyisihan Programming Contest INFEST 2018 <a href="https://drive.google.com/open?id=1Ovzz1prxWPkTCeKxcOy_-NCgk35Mz2nH">Klik disini untuk melihat.</a></p>
                                     </div>
-                                     <button class="accordion"><b>Pendaftaran Programming Contest akan berakhir pada 07 Oktober 2018 pukul 20.00 WIB</b></button>
+                                     <button class="accordion"><b>Pendaftaran Programming Contest akan berakhir pada 07 Oktober 2018 pukul 20.00 wib</b></button>
                                     </div>
                                 </div>
                             </div>

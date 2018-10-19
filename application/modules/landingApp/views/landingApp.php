@@ -472,10 +472,12 @@
             </div>
         </div>
 
-        <div style=" margin: 10px 30px;" class="sponsor">
-            <div align="center" style="padding:50px;">
-                <h2>DISPONSORI <br>oleh :</h2>
-                <img style="padding: 10px 0 0 0;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
+        <div style=" margin: 10px 0px; " class="sponsor">
+            <div align="center" style="background-color:#f0eeee; height:100%; text-align:center">
+            <div style=" background:#f0eeee; height:10px;"></div>
+                <h2>Sponsor</h2>
+            <div style=" background:#d7d7d7; height:2px; width: 450px; margin: 0 auto;"></div>
+
             </div>
 
             <div class="content-sponsor">
@@ -510,6 +512,81 @@
                 <li>
                     <img class="img-sponsor"src="<?php echo base_url() ?>asset/theme/custom-image/sponsor/Artboard_10.png">
                 </li>
+                <li>
+                    <img class="img-sponsor"src="<?php echo base_url() ?>asset/theme/custom-image/sponsor/Artboard_11.png">
+                </li>
+                <li>
+                    <img class="img-sponsor"src="<?php echo base_url() ?>asset/theme/custom-image/sponsor/Artboard_12.png">
+                </li>
+                <li>
+                    <img class="img-sponsor"src="<?php echo base_url() ?>asset/theme/custom-image/sponsor/Artboard_13.png">
+                </li>
+                <li>
+                    <img class="img-sponsor"src="<?php echo base_url() ?>asset/theme/custom-image/sponsor/Artboard_14.png">
+                </li>
+                <li>
+                    <img class="img-sponsor"src="<?php echo base_url() ?>asset/theme/custom-image/sponsor/Artboard_15.png">
+                </li>
+                <li>
+                    <img class="img-sponsor"src="<?php echo base_url() ?>asset/theme/custom-image/sponsor/Artboard_16.png">
+                </li>
+                <li>
+                    <img class="img-sponsor"src="<?php echo base_url() ?>asset/theme/custom-image/sponsor/Artboard_17.png">
+                </li>
+                <li>
+                    <img class="img-sponsor"src="<?php echo base_url() ?>asset/theme/custom-image/sponsor/Artboard_18.png">
+                </li>
+                <li>
+                    <img class="img-sponsor"src="<?php echo base_url() ?>asset/theme/custom-image/sponsor/Artboard_19.png">
+                </li>
+                <li>
+                    <img class="img-sponsor"src="<?php echo base_url() ?>asset/theme/custom-image/sponsor/Artboard_20.png">
+                </li>
+                <li>
+                    <img class="img-sponsor"src="<?php echo base_url() ?>asset/theme/custom-image/sponsor/Artboard_21.png">
+                </li>
+                <li>
+                    <img class="img-sponsor"src="<?php echo base_url() ?>asset/theme/custom-image/sponsor/Artboard_22.png">
+                </li>
+                <li>
+                    <img class="img-sponsor"src="<?php echo base_url() ?>asset/theme/custom-image/sponsor/Artboard_23.png">
+                </li>
+                <li>
+                    <img class="img-sponsor"src="<?php echo base_url() ?>asset/theme/custom-image/sponsor/Artboard_24.png">
+                </li>
+                <li>
+                    <img class="img-sponsor"src="<?php echo base_url() ?>asset/theme/custom-image/sponsor/Artboard_25.png">
+                </li>
+            
+
+            </ul>
+            </div>
+               
+        </div>
+
+
+         <div style=" margin: 40px 0px;" class="sponsor">
+         <div align="center" style="background-color:#f0eeee; height:100%; text-align:center">
+            <div style=" background:#f0eeee; height:10px;"></div>
+                <h2>Media Partner</h2>
+                <div style=" background:#d7d7d7; height:2px; width: 450px; margin: 0 auto;"></div>
+            </div>
+
+            <div class="content-sponsor">
+            <ul  class="line-sponsor">
+                <li>
+                    <img class="img-sponsor"src="<?php echo base_url() ?>asset/theme/custom-image/MediaPatner/Artboard_1.png">
+                </li>
+                <li>
+                    <img class="img-sponsor"src="<?php echo base_url() ?>asset/theme/custom-image/MediaPatner/Artboard_2.png">
+                </li>
+                <li>
+                    <img class="img-sponsor"src="<?php echo base_url() ?>asset/theme/custom-image/MediaPatner/Artboard_3.png">
+                </li>
+                <li>
+                    <img class="img-sponsor"src="<?php echo base_url() ?>asset/theme/custom-image/MediaPatner/Artboard_4.png">
+                </li>
+                
 
             </ul>
             </div>

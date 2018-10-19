@@ -233,7 +233,8 @@ textarea {
     display: inline;
 }
 .img-sponsor {
-    width: 250px;
+    width: 150px;
+    padding: 20px;
 }
 
 .img-speaker {

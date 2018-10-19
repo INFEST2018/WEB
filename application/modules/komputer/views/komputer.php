@@ -116,8 +116,8 @@
                             <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
                             <ol class="list-content">
                                 <li>Siswa/I SMA/MA atau sederajat.</li>
-                                <li>Mendaftarkan diri di sekolah masing – masing.</li>
-                                <li>Setiap sekolah diperbolehkan mendaftarkan <i style="color:red">maksimal 5 orang siswa/i.</i></li>
+                                <li>Peserta dapat langsung mendaftarkan diri di link <a href="http://bit.ly/olimpiadeinfest">bit.ly/olimpiadeinfest</a></li>
+                                
                             </ol>
                             <br>
                             <br>
@@ -152,10 +152,8 @@
                             <h3>Pemenang</h3>
                             <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
                             <ul class="list-content">
-                                <li>Juara 1 mendapatkan uang tunai Rp. 500.000,- + Trophy + sertifikat</li>
-                                <li>Juara 2 mendapatkan uang tunai Rp. 300.000,- + Trophy + sertifikat</li>
-                                <li>Juara 3 mendapatkan uang tunai Rp. 200.000,- + Trophy + sertifikat</li>
-                                <li>Peserta mendapatakan sertifikat</li>
+                                <li>Juara mendapatkan Uang Tunai + Trophy + Sertifikat</li>
+                                <li>Peserta mendapatakan Sertifikat</li>
                             </ul>
                             <br><br>
 
