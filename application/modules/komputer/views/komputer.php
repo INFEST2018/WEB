@@ -116,7 +116,7 @@
                             <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
                             <ol class="list-content">
                                 <li>Siswa/I SMA/MA atau sederajat.</li>
-                                <li>Peserta dapat langsung mendaftarkan diri di link <a href="http://bit.ly/olimpiadeinfest">bit.ly/olimpiadeinfest</a></li>
+                                <li>Peserta dapat langsung mendaftarkan diri pada <a href="http://bit.ly/olimpiadeinfest" target="_blank">link pendaftaran berikut </a></li>
                                 
                             </ol>
                             <br>
@@ -125,9 +125,8 @@
                             <h3>Pendaftaran</h3>
                             <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
                             <ol class="list-content">
-                                <li>Sekolah yang diundang akan diberikan formulir untuk mendaftarkan 5 orang siswa/I calon peserta olimpiade</li>
                                 <li>Pendaftaran dilakukan dengan mengisi formulir 17 September - 24 Oktober yang dapat diambil dari panitia INFEST 2018 yang bertempat di Pos pendaftaran <i style="color:red"> Sekretariat FMIPA </i>Universitas Syiah Kuala</li>
-                                <li>Pendaftaran formulir pendaftaran dikembalikan kepada panitia olimpiade komputer bertempat di ruang <i style="color:red"> Laboratorium Pemrograman dan Database (PDB) lantai III Laboratorium Terpadu</i> Universitas Syiah Kuala.</li>
+                                <li>Pendaftaran formulir pendaftaran dikembalikan kepada panitia olimpiade komputer bertempat di Pos pendaftaran <i style="color:red"> Sekretariat FMIPA </i>Universitas Syiah Kuala</li>
                                 <li>Setiap peserta yang mendaftarkan tim olimpiade diharuskan membayar uang pendaftaran sebesar <i style="color:red">Rp. 25.000,-.</i></li>
                                 
                             </ol>

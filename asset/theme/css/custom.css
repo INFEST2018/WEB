@@ -156,7 +156,7 @@
     .list-berita {
         margin: 0px 15px;
         padding: 20px;
-        text-align: justify;
+        text-align: left;
     }
 
     .deskripsi-judul {
@@ -247,4 +247,12 @@ textarea {
   font-weight: bold;
   font-style: italic;
   font-family: times new romans;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    
 }

@@ -58,7 +58,7 @@
                             <img src="<?php echo base_url() ?>asset/theme/custom-image/purpleTrans.png" alt="slide-home-bg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
                             <div class="tp-caption sft flv_rev_6" data-x="center" data-y="center" data-speed="800" data-start="2100" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300">
-                                <img src="<?php echo base_url() ?>asset/theme/custom-image/logo-text.png">
+                                <img src="<?php echo base_url() ?>asset/theme/custom-image/logo-white.png">
                             </div>
 
                             <div class="tp-caption sft flv_rev_6" data-x="0" data-y="10" data-speed="800" data-start="1000" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300">
@@ -80,7 +80,7 @@
                             <img src="<?php echo base_url() ?>asset/theme/custom-image/purpleTrans.png" alt="slide-home-bg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
                             <div class="tp-caption sft flv_rev_6" data-x="center" data-y="center" data-speed="800" data-start="2100" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300">
-                                <img src="<?php echo base_url() ?>asset/theme/custom-image/logo-text.png">
+                                <img src="<?php echo base_url() ?>asset/theme/custom-image/logo-white.png">
                             </div>
 
                             <div class="tp-caption sft flv_rev_6" data-x="0" data-y="10" data-speed="800" data-start="1000" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300">
