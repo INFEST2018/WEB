@@ -136,7 +136,7 @@
                             <h3>Olimpiade</h3>
                             <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
                             <p class="deskripsi-content">
-                            Kegiatan Olimpiade dilakukan pada tanggal 26 Oktober 2018 yang dimulai pada pukul 09.30 WIB bertempat di Ruang <i style="color:red">Kaca Gelanggang Mahasiswa</i> Universitas Syiah Kuala. Olimpiade berlangsung selama 120 menit.
+                            Kegiatan Olimpiade dilakukan pada tanggal 26 Oktober 2018 yang dimulai pada pukul 09.30 WIB bertempat di Ruang <i style="color:red">Hostpot Lantai 1 Puksi</i> Universitas Syiah Kuala. Olimpiade berlangsung selama 120 menit.
                             </p>
                             <br><br>
 
@@ -144,7 +144,7 @@
                             <h3>Tempat Perlombaan</h3>
                             <img style="padding: 0px 0 20px 0; height:3px; width:450px;" src="<?php echo base_url() ?>asset/theme/custom-image/icon/line.png">
                             <ul class="list-content">
-                                <li>Ruang Kaca Gelanggang Mahasiswa Universitas Syiah Kuala</li>
+                                <li>Ruang Hostpot Lantai 1 Puksi Universitas Syiah Kuala</li>
                             </ul>
                             <br><br>
 
